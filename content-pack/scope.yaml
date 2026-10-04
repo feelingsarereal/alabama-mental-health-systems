@@ -1,0 +1,155 @@
+topic: 'I want to turn this into an searchable interactive website. some things need to happen: 1. All contents
+  needs to be verified and updated. 2. All claims need to be sourced and a summary of that source needs to be shown
+  on hover in the read view. 3. An interactive geographic map of Alabama is desired showing demographics and other
+  relevant statistics of course all sourced and cited. 4. An interactive abstracted systems graph showing dependencies
+  of the eight domains is desired. This abstracted map should allow investigation into Alabama related statistics
+  where available of course all sourced and cited. 5. An interactive US map containing the same content is also
+  desirable.'
+question: What does Alabama's mental health system of systems look like in October 2026 (who decides, who pays,
+  what exists, who delivers it, who is reached and who is missed), and how well is each statement about it supported
+  by its source?
+purpose: orientation
+boundary:
+  in:
+  - every factual claim in the 3 October 2026 draft of the Alabama Mental Health Systems Report, checked against
+    its cited source
+  - newer editions of the report's own sources published by 3 October 2026
+  - primary sources for claims that had none, or whose cited source did not carry them
+  - 'county-level (Alabama) and state-level (United States) public data for the maps: demographics, coverage, shortage
+    areas, deaths, health and community measures, national rankings and spending'
+  - the Department of Mental Health's own published lists of centers, crisis services and regions, for the map overlays
+  out:
+  - new topics, arguments or recommendations beyond those in the draft
+  - 're-analysis of any dataset: values are shown as published'
+  - facility-level, provider-level or sub-county data
+  - the report's planned North Alabama regional edition
+  - clinical guidance and policy advocacy, which the report itself excludes
+  - the proviso text of Act 2026-383 and pages 59–73 of the Braggs opinion, which the reader could not reach (listed
+    as open items)
+  rationale: The author asked for the existing report to be verified, updated and made explorable, not for a new
+    report. The check therefore stays inside the report's own claims; the only material added from outside is map
+    data and the sources needed to support or correct what the report already says.
+level: state system, with county and state comparison data
+time_window:
+  current_from: 2021
+  seminal: frameworks and statutes of any age where the report relies on them
+stance: primer-with-controversies
+depth: deep
+anchors:
+- citation: Little Orange Fish. Alabama Mental Health Systems Report, Version 2 draft, 3 October 2026 (source register
+    of 117 entries).
+  why: The report's own register was the starting corpus; every entry was opened.
+excluded:
+- what: SAMHSA URS penetration rate for all states
+  why: No national state-by-state table exists; only Alabama's tables were read.
+- what: A fresh literature or news sweep beyond the report's claims
+  why: 'Out of scope: the check follows the report''s claims.'
+assumed: false
+interview:
+- q: Where should the finished site live? The draft says it is internal to Little Orange Fish until approved.
+  answer: Public GitHub Pages
+  asked: '2026-10-03'
+- q: When re-verification finds that a figure or statement has moved or doesn't match its source, what happens to
+    the report text?
+  answer: Revise the text, log every change
+  asked: '2026-10-03'
+- q: How far should the two maps go beyond the figures already in the report?
+  answer: Full county and state layers
+  asked: '2026-10-03'
+- q: Add this report's sources to your Zotero library?
+  answer: 'No'
+  asked: '2026-10-03'
+- q: (volunteered) Hosting and branding
+  answer: Also this will be going to a littleorangefish github and should contain Little Orange Fish branding on
+    the site which I will provide … github account is feelingsarereal and the brand content is in the pdf but logo
+    is also attached
+  asked: '2026-10-03'
+search_strategy:
+  run_on: '2026-10-03'
+  sources:
+  - the report's own source register
+  - publisher web sites read through an automated page reader
+  - web search (allowance of 200 exhausted during the section edits)
+  - a browser search engine, after the allowance ran out
+  - publisher data files retrieved exactly through a browser (map data)
+  queries:
+  - q: 'Per-source check: every document in the report''s 117-entry register opened and read against each claim
+      that cites it'
+    source: automated page reader
+    hits: 172
+    kept: 172
+  - q: Per-claim checks made in that pass (one claim against one cited source)
+    source: automated page reader
+    hits: 1513
+    kept: 1513
+  - q: 'Section edits: primary sources sought for claims with no source or whose cited source did not carry them,
+      and newer editions of dated sources'
+    source: automated page reader; web search; browser search
+    hits: 161
+    kept: 161
+  - q: 'Map data: Census QuickFacts, County Health Rankings, HRSA, KFF, Mental Health America, NRI, CDC and SAMHSA
+      tables, and ADMH''s lists of centers and services'
+    source: publisher data files via browser
+    hits: 22
+    kept: 22
+  snowball:
+  - from each cited source to the newer edition of the same source
+  - from a claim's cited source to the primary document that source refers to
+  inclusion:
+  - the publisher's own document or data wherever one could be read
+  - reputable press only where no primary document was reachable
+  - a verbatim supporting passage returned for every confirmed claim
+  exclusion:
+  - sources the reader could not open (recorded as open items, never worked around)
+  - archive or mirror copies of blocked pages
+  - figures recalled from memory or estimated
+  known_gaps:
+  - Individual search strings were not logged; the counts above are of documents and checks, not of queries.
+  - Sources were read through an automated reader that returns extracts; quoted passages are as it returned them
+    and page numbers are approximate.
+  - Nineteen documents were read only in part because the reader truncated them, including the Braggs opinion and
+    the enrolled FY2027 General Fund act.
+  - Three checkers attempted a direct download after the reader truncated a PDF; the attempts were refused by the
+    network and nothing in the pack comes from them.
+corpus_profile:
+  by_tier:
+    background: 48
+    seminal: 12
+    current: 269
+  year_range:
+  - 1971
+  - 2026
+  concentration: 63 of 329 references are the Alabama Department of Mental Health's own pages and documents, and
+    41 are press reports. Where the Department is the only source for a statement about itself, the reference card
+    says so.
+  dissent_represented: true
+verification:
+  claims_extracted: 1905
+  claim_source_checks: 1513
+  pass_a_verdicts:
+    confirmed: 860
+    confirmed_by_derivation: 66
+    partly: 246
+    not_in_cited_source: 304
+    outdated: 19
+    contradicted: 4
+    not_checked: 14
+  register_entries: 117
+  documents_read_in_pass_a: 172
+  references: 329
+  ledger_entries: 2123
+  ledger_by_status:
+    self: 173
+    corrected: 289
+    analysis: 216
+    removed: 30
+    verified: 752
+    newly-sourced: 313
+    reattributed: 99
+    updated: 133
+    absence: 114
+    unverified: 4
+  changes: 744
+  substantive_changes: 206
+  open_items: 95
+  words: 26485

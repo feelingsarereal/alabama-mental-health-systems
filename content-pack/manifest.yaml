@@ -1,0 +1,89 @@
+mode: topic
+slug: alabama-mental-health-systems
+title: Alabama Mental Health Systems Report
+short_title: Alabama Mental Health
+subtitle: A descriptive analysis of Alabama's mental health system of systems, for advocates, planners and coalition
+  partners
+question: What does Alabama's mental health system of systems look like in October 2026 (who decides, who pays,
+  what exists, who delivers it, who is reached and who is missed), and how well is each statement about it supported
+  by its source?
+purpose: orientation
+as_of: '2026-10-03'
+authors:
+- Little Orange Fish
+venue: DRAFT FOR REVIEW. Not approved by Little Orange Fish and not peer reviewed. Report by Little Orange Fish;
+  source check, change log, maps and primers prepared with Claude.
+year: 2026
+report:
+  publisher: Little Orange Fish, Huntsville, Alabama
+  role: backbone organization for the North Alabama Mental Health Coalition
+  version: v261003.1
+  based_on: Version 2 draft of 3 October 2026 (69-page PDF)
+  supersedes: v250603 (June 2025)
+  status: draft-for-review
+  intended_home: NorthAlabamaMentalHealthCoalition.org, on approval
+plain_abstract: 'Alabama''s mental health system is not one system. A state agency and its contracted community
+  centers, Medicaid and private insurers, hospitals, schools, courts and jails, housing coalitions and hundreds
+  of nonprofits together decide whether a person can find help, afford it, reach it and keep it. This report by
+  Little Orange Fish describes all of them in one place: eight domains adapted from the World Health Organization''s
+  health-system building blocks, and four sections on the systems outside the Department of Mental Health that shape
+  outcomes. This site presents the October 2026 draft after every claim in it was checked against its cited source.
+  You can read the report with each sentence''s source one hover away, see what the check changed and what it could
+  not settle, explore how the domains depend on one another, and compare Alabama''s counties with one another and
+  Alabama with the other states on maps built from public data. It is a draft for review, not an approved or peer-reviewed
+  publication.'
+reading_minutes: 115
+audience: advocates, planners and coalition partners in Alabama; assumes no background in health policy
+palette:
+  groups:
+    domain: '#e8762b'
+    cross_sector: '#3f6f8f'
+    alabama: '#e8762b'
+    united_states: '#7a8791'
+    verified: '#2e7d5b'
+    changed: '#b3541e'
+    open: '#9a6b00'
+permissions:
+  text: Report text by Little Orange Fish, published here by the publisher as a draft for review; source summaries,
+    primers and definitions written for this site; no third-party text reproduced beyond quotations of 25 words
+    or fewer, each attributed and cited.
+  figures: Charts, maps and the systems graph are built for this site from cited public data; no published figure
+    images are reproduced. The Little Orange Fish logo is used with the publisher's permission.
+delivery: pages
+github_account: feelingsarereal
+notes_storage: file
+link_every_occurrence: false
+builder:
+  name: Manuscript Interrogator
+  version: 0.5.2
+  date: '2026-10-03'
+draft: true
+banner:
+  text: Draft for review. This report has not been approved by Little Orange Fish and is not a position of the North
+    Alabama Mental Health Coalition or its members. Every claim was checked against its source on 3 October 2026;
+    the change log and the open items show what that check found.
+  links:
+  - label: What changed
+    to: /changes
+  - label: Open items
+    to: /open-items
+brand:
+  file: brand/brand.yaml
+extensions:
+  note: Schema extensions for this app; KICKOFF §8 is normative for all of them.
+  claims_ledger: claims-ledger.yaml
+  changes: changes.yaml
+  open_items: open-items.yaml
+  verification_stats: verification-stats.json
+  geo:
+    layers: geo/layers.json
+    alabama_counties: geo/al_counties.csv
+    us_states: geo/us_states.csv
+    overlays: geo/overlays.json
+    notes: geo/NOTES.md
+    raw: geo/raw/
+  systems:
+    graph: figures/data/systems-graph.json
+    indicators: systems/indicators.json
+  block_ids: 'every block of review.md carries a trailing <!-- b: B0000 --> comment; tables carry it on the line
+    above'

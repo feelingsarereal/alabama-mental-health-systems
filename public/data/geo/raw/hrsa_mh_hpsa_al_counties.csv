@@ -1,0 +1,68 @@
+fips,county,hpsa_mh_designation,hpsa_mh_coverage,hpsa_mh_status,hpsa_mh_id,hpsa_mh_name,hpsa_mh_designation_date,hpsa_mh_score
+01001,Autauga,geographic,whole,proposed_for_withdrawal,7018426959,"MHCA -14",09/01/2022,10
+01003,Baldwin,geographic,whole,proposed_for_withdrawal,7015473896,"Baldwin County",05/24/2022,13
+01005,Barbour,geographic,whole,proposed_for_withdrawal,7019959937,"MHCA-19",09/01/2022,11
+01007,Bibb,low_income_population,whole,designated,7015543217,"LI - MHCA-8",09/29/2026,17
+01009,Blount,low_income_population,whole,designated,7011269906,"LI - MHCA 5",09/29/2026,18
+01011,Bullock,geographic,whole,designated,7014079060,"MHCA-15",03/21/2023,17
+01013,Butler,high_needs_geographic,whole,designated,7018940421,"Catchment Area M-18",02/09/2022,18
+01015,Calhoun,geographic,whole,designated,7014562452,"MHCA-7",08/25/2026,17
+01017,Chambers,low_income_population,whole,designated,7013905133,"LI-MHCA-12",12/29/2022,16
+01019,Cherokee,geographic,whole,proposed_for_withdrawal,7011883754,"MHCA 6",07/26/2022,17
+01021,Chilton,high_needs_geographic,whole,proposed_for_withdrawal,7019110135,"HN-MHCA-11",04/04/2023,8
+01023,Choctaw,geographic,whole,designated,7013092258,"MHCA-10",04/04/2023,12
+01025,Clarke,high_needs_geographic,whole,proposed_for_withdrawal,7018865521,"SouthWest-Mental Health Catchment Area 17",07/06/2022,18
+01027,Clay,high_needs_geographic,whole,designated,7011695492,"ALTAPOINTE-MHCA 9",07/18/2022,19
+01029,Cleburne,geographic,whole,designated,7014562452,"MHCA-7",08/25/2026,17
+01031,Coffee,high_needs_geographic,whole,designated,7018940421,"Catchment Area M-18",02/09/2022,18
+01033,Colbert,high_needs_geographic,whole,designated,7018558436,"Riverbend Center MHCA 1 - Colbert/Franklin/Lauderdale Counties",06/28/2022,12
+01035,Conecuh,high_needs_geographic,whole,proposed_for_withdrawal,7018865521,"SouthWest-Mental Health Catchment Area 17",07/06/2022,18
+01037,Coosa,high_needs_geographic,whole,designated,7011695492,"ALTAPOINTE-MHCA 9",07/18/2022,19
+01039,Covington,high_needs_geographic,whole,designated,7018940421,"Catchment Area M-18",02/09/2022,18
+01041,Crenshaw,high_needs_geographic,whole,designated,7018940421,"Catchment Area M-18",02/09/2022,18
+01043,Cullman,low_income_population,whole,designated,7016634974,"Cullman County - MHCA 22",02/09/2022,16
+01045,Dale,geographic,whole,proposed_for_withdrawal,7019959937,"MHCA-19",09/01/2022,11
+01047,Dallas,geographic,whole,designated,7018663949,"MHCA-13",04/04/2023,19
+01049,DeKalb,geographic,whole,proposed_for_withdrawal,7011883754,"MHCA 6",07/26/2022,17
+01051,Elmore,geographic,whole,proposed_for_withdrawal,7018426959,"MHCA -14",09/01/2022,10
+01053,Escambia,high_needs_geographic,whole,proposed_for_withdrawal,7018865521,"SouthWest-Mental Health Catchment Area 17",07/06/2022,18
+01055,Etowah,geographic,whole,proposed_for_withdrawal,7011883754,"MHCA 6",07/26/2022,17
+01057,Fayette,low_income_population,whole,designated,7013432074,"LI MHCA-4",04/04/2023,17
+01059,Franklin,high_needs_geographic,whole,designated,7018558436,"Riverbend Center MHCA 1 - Colbert/Franklin/Lauderdale Counties",06/28/2022,12
+01061,Geneva,geographic,whole,proposed_for_withdrawal,7019959937,"MHCA-19",09/01/2022,11
+01063,Greene,geographic,whole,designated,7013092258,"MHCA-10",04/04/2023,12
+01065,Hale,geographic,whole,designated,7013092258,"MHCA-10",04/04/2023,12
+01067,Henry,geographic,whole,proposed_for_withdrawal,7019959937,"MHCA-19",09/01/2022,11
+01069,Houston,geographic,whole,proposed_for_withdrawal,7019959937,"MHCA-19",09/01/2022,11
+01071,Jackson,low_income_population,whole,designated,7015770153,"LI MHCA-20",04/04/2023,18
+01073,Jefferson,low_income_population,whole,designated,7011269906,"LI - MHCA 5",09/29/2026,18
+01075,Lamar,low_income_population,whole,designated,7013432074,"LI MHCA-4",04/04/2023,17
+01077,Lauderdale,high_needs_geographic,whole,designated,7018558436,"Riverbend Center MHCA 1 - Colbert/Franklin/Lauderdale Counties",06/28/2022,12
+01079,Lawrence,low_income_population,whole,designated,7017495254,"LI -MHCA-2",09/04/2026,16
+01081,Lee,low_income_population,whole,designated,7013905133,"LI-MHCA-12",12/29/2022,16
+01083,Limestone,low_income_population,whole,designated,7017495254,"LI -MHCA-2",09/04/2026,16
+01085,Lowndes,geographic,whole,proposed_for_withdrawal,7018426959,"MHCA -14",09/01/2022,10
+01087,Macon,geographic,whole,designated,7014079060,"MHCA-15",03/21/2023,17
+01089,Madison,none,none,,,,,
+01091,Marengo,geographic,whole,designated,7013092258,"MHCA-10",04/04/2023,12
+01093,Marion,low_income_population,whole,designated,7013432074,"LI MHCA-4",04/04/2023,17
+01095,Marshall,low_income_population,whole,designated,7015770153,"LI MHCA-20",04/04/2023,18
+01097,Mobile,low_income_population,whole,proposed_for_withdrawal,7018593793,"MHCA 16 - Mobile/Washington",11/17/2022,17
+01099,Monroe,high_needs_geographic,whole,proposed_for_withdrawal,7018865521,"SouthWest-Mental Health Catchment Area 17",07/06/2022,18
+01101,Montgomery,geographic,whole,proposed_for_withdrawal,7018426959,"MHCA -14",09/01/2022,10
+01103,Morgan,low_income_population,whole,designated,7017495254,"LI -MHCA-2",09/04/2026,16
+01105,Perry,geographic,whole,designated,7018663949,"MHCA-13",04/04/2023,19
+01107,Pickens,low_income_population,whole,designated,7015543217,"LI - MHCA-8",09/29/2026,17
+01109,Pike,geographic,whole,designated,7014079060,"MHCA-15",03/21/2023,17
+01111,Randolph,high_needs_geographic,whole,designated,7011695492,"ALTAPOINTE-MHCA 9",07/18/2022,19
+01113,Russell,low_income_population,whole,designated,7013905133,"LI-MHCA-12",12/29/2022,16
+01115,St. Clair,low_income_population,whole,designated,7011269906,"LI - MHCA 5",09/29/2026,18
+01117,Shelby,high_needs_geographic,whole,proposed_for_withdrawal,7019110135,"HN-MHCA-11",04/04/2023,8
+01119,Sumter,geographic,whole,designated,7013092258,"MHCA-10",04/04/2023,12
+01121,Talladega,high_needs_geographic,whole,designated,7011695492,"ALTAPOINTE-MHCA 9",07/18/2022,19
+01123,Tallapoosa,low_income_population,whole,designated,7013905133,"LI-MHCA-12",12/29/2022,16
+01125,Tuscaloosa,low_income_population,whole,designated,7015543217,"LI - MHCA-8",09/29/2026,17
+01127,Walker,low_income_population,whole,designated,7013432074,"LI MHCA-4",04/04/2023,17
+01129,Washington,low_income_population,whole,proposed_for_withdrawal,7018593793,"MHCA 16 - Mobile/Washington",11/17/2022,17
+01131,Wilcox,geographic,whole,designated,7018663949,"MHCA-13",04/04/2023,19
+01133,Winston,low_income_population,whole,designated,7013432074,"LI MHCA-4",04/04/2023,17

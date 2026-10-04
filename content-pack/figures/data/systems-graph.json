@@ -1,0 +1,449 @@
+{
+ "nodes": [
+  {
+   "id": "d1",
+   "label": "Governance",
+   "title": "Domain 1. Governance, Policy and Legal Foundations",
+   "kind": "domain",
+   "number": 1,
+   "section": "d1",
+   "scope": "Governance is the set of laws, institutions and decision rights that determine who is responsible for mental health in Alabama, how they are held to account, and what rights people with mental illness can assert. It includes the state mental health authority and its board, the Legislature's budget and policy committees, the Governor, the courts that enforce constitutional standards of care, and the interagency bodies that coordinate across health, education, justice and human services. A strong governance frame gives the rest of the system direction, legitimacy and accountability; a weak one leaves gaps that courts eventually fill.",
+   "admh_plan_goals": [
+    "A1",
+    "A2",
+    "A3",
+    "A6",
+    "D1",
+    "D2"
+   ]
+  },
+  {
+   "id": "d2",
+   "label": "Financing",
+   "title": "Domain 2. Financing and Resource Allocation",
+   "kind": "domain",
+   "number": 2,
+   "section": "d2",
+   "scope": "Financing covers where the money for mental health care comes from — state appropriations, Medicaid and other federal funds, commercial insurance, local and philanthropic sources — and how it is allocated across hospitals, community programs, crisis services and the workforce. The question for planners is not only how much Alabama spends, but which payer pays for which service, because that determines which services can grow.",
+   "admh_plan_goals": [
+    "A1",
+    "A2",
+    "A3",
+    "D1",
+    "D2",
+    "D3",
+    "D4"
+   ]
+  },
+  {
+   "id": "d3",
+   "label": "Services",
+   "title": "Domain 3. The Service-Delivery Continuum",
+   "kind": "domain",
+   "number": 3,
+   "section": "d3",
+   "scope": "This domain describes what services exist in Alabama, who provides them, and how a person moves between them: from promotion and prevention, through outpatient treatment, crisis response, inpatient and forensic care, to the supports that keep recovery going. The organizing question, borrowed from the National Academies' continuum and from the state mental health directors' _Beyond Beds_ analysis, is whether each level exists at enough scale and whether the hand-offs between levels work [2] [3].",
+   "admh_plan_goals": [
+    "A1",
+    "A2",
+    "A3",
+    "A4",
+    "A5",
+    "B3"
+   ]
+  },
+  {
+   "id": "d4",
+   "label": "Workforce",
+   "title": "Domain 4. Workforce Development and Well-being",
+   "kind": "domain",
+   "number": 4,
+   "section": "d4",
+   "scope": "The workforce domain covers the people who deliver mental health care — psychiatrists, psychiatric nurse practitioners, psychologists, licensed counselors and social workers, nurses, case managers, direct-support staff, peer specialists — and the pipeline, licensure, incentives and working conditions that determine how many there are and where they practice. It also covers the wider network of first responders, educators and faith leaders trained to recognize and respond to mental health needs. Every other domain depends on this one.",
+   "admh_plan_goals": [
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "A5"
+   ]
+  },
+  {
+   "id": "d5",
+   "label": "Infrastructure",
+   "title": "Domain 5. Medicines, Technology and Infrastructure",
+   "kind": "domain",
+   "number": 5,
+   "section": "d5",
+   "scope": "This domain covers the physical and technical capacity behind services: hospital and crisis-center buildings, residential beds, the information systems that carry client records and claims, telehealth, broadband, and access to psychiatric medications. Infrastructure decisions are slow and expensive; they set the ceiling on what the other domains can deliver for a decade.",
+   "admh_plan_goals": [
+    "A1",
+    "A2",
+    "A6",
+    "D4"
+   ]
+  },
+  {
+   "id": "d6",
+   "label": "Data",
+   "title": "Domain 6. Information, Data and Quality Improvement",
+   "kind": "domain",
+   "number": 6,
+   "section": "d6",
+   "scope": "This domain covers how the system knows what it is doing: the data providers report, the measures the state publishes, the surveys of people served, the evaluations that test whether programs work, and the quality processes that turn findings into change. Alabama's 2025 crisis-center evaluation made this domain the pivot of the state's mental-health politics: funding is now conditioned on reporting [14] [17].",
+   "admh_plan_goals": [
+    "A6",
+    "D2",
+    "D3",
+    "E2"
+   ]
+  },
+  {
+   "id": "d7",
+   "label": "Equity",
+   "title": "Domain 7. Equity, Inclusion and Cultural Responsiveness",
+   "kind": "domain",
+   "number": 7,
+   "section": "d7",
+   "scope": "Equity asks who the system reaches, who it misses, and whether the care people receive fits their language, culture, disability and circumstances. In Alabama the relevant dimensions are race, rurality, income and insurance, language and hearing, veteran status, age, and involvement with the justice and child-welfare systems. This domain reports what the data show and names the programs built for specific communities; it makes no clinical claims and takes no policy position.",
+   "admh_plan_goals": [
+    "A5",
+    "B2",
+    "B3",
+    "E3"
+   ]
+  },
+  {
+   "id": "d8",
+   "label": "Community",
+   "title": "Domain 8. Community Engagement, Education and Advocacy",
+   "kind": "domain",
+   "number": 8,
+   "section": "d8",
+   "scope": "This domain covers how the public shapes the system: awareness and anti-stigma education, training of lay and professional responders, the organizations that carry the voice of people with lived experience and their families, regional coalitions, the press, and the advocacy that moves budgets and law. ADMH's fifth strategic priority — Awareness and Knowledge — commits the Department to giving Alabamians information that raises awareness and connects them to services [40]; this report reads that as recognizing public engagement as a system function, not an add-on.",
+   "admh_plan_goals": [
+    "E1",
+    "E2",
+    "E3",
+    "D1"
+   ]
+  },
+  {
+   "id": "s9",
+   "label": "Children",
+   "title": "Section 9. Children, Youth and Families: A System of Care",
+   "kind": "cross-sector",
+   "number": 9,
+   "section": "s9",
+   "scope": "Children's mental health in Alabama is delivered by at least six public systems — the Department of Mental Health, schools, Medicaid, child welfare, juvenile justice and early-childhood education — plus pediatric medicine. The national System of Care framework, adopted by the federal government since the 1980s and updated in 2010 [7] and again in 2021 [210], holds that services for children should be family-driven and youth-guided, community-based, culturally and linguistically competent, and coordinated across agencies, with early identification, individualized planning and smooth transitions to adulthood [7]. The 2021 update keeps each of these values and principles, with some rewording (the first value is now \"Family and Youth Driven\"), and adds principles on trauma-informed care, health–mental health integration, a public health approach and mental health equity [210]. This section describes Alabama's pieces against that frame. Child and Family Services is the second of ADMH's five strategic priorities [40].",
+   "admh_plan_goals": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "A2",
+    "A5"
+   ]
+  },
+  {
+   "id": "s10",
+   "label": "Justice",
+   "title": "Section 10. The Justice Interface",
+   "kind": "cross-sector",
+   "number": 10,
+   "section": "s10",
+   "scope": "In Alabama, the justice system is a regular point of contact for people with mental illness: Lee County's sheriff says some sheriffs describe their jails as a \"de facto center\" for people with mental-health conditions, and the director of Alabama's Crisis Intervention Team program estimates that 20 to 30 percent of the calls law enforcement fields involve a person in a mental-health crisis [6]. This section follows the **Sequential Intercept Model**, which maps the points at which a person can be diverted from the justice system into care: Intercept 0 (community and crisis services), 1 (law enforcement), 2 (initial detention and court hearings), 3 (jails and courts), 4 (reentry) and 5 (community corrections) [4] [5]. Alabama's forensic and prison mental-health systems both operate under federal court oversight [11] [69], which makes this the area where the state's obligations are most explicit.",
+   "admh_plan_goals": [
+    "A1",
+    "A2",
+    "A5",
+    "B5"
+   ]
+  },
+  {
+   "id": "s11",
+   "label": "Housing/SDOH",
+   "title": "Section 11. Housing, Social Determinants and Community Supports",
+   "kind": "cross-sector",
+   "number": 11,
+   "section": "s11",
+   "scope": "Mental health outcomes depend on conditions outside the clinic: housing, income and work, transport, connectivity, food, education and social connection. Healthy People 2030 groups these into five domains of social determinants — economic stability, education access and quality, health care access and quality, neighborhood and built environment, and social and community context [8]. This section describes Alabama's systems in each, with a focus on housing and homelessness, where the mental health system's own gap is clearest.",
+   "admh_plan_goals": [
+    "A5",
+    "D4",
+    "E3"
+   ]
+  },
+  {
+   "id": "s12",
+   "label": "Payers",
+   "title": "Section 12. Payers, Coverage and the CCBHC Transition",
+   "kind": "cross-sector",
+   "number": 12,
+   "section": "s12",
+   "scope": "Who pays determines what gets delivered. This section describes Alabama's payer mix — Medicaid, commercial insurance, Medicare, the marketplace, federal and state direct funding — and the single largest change in how community mental health care is paid for in a generation: the Certified Community Behavioral Health Clinic model.",
+   "admh_plan_goals": [
+    "A3",
+    "D1",
+    "D2",
+    "D3",
+    "D4"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "id": "e1-d6-d2",
+   "from": "d6",
+   "to": "d2",
+   "row": 1,
+   "pair": "Data (6) → Financing (2)",
+   "link": "Evidence justifies or withholds funds",
+   "evidence": "ACES's preliminary evaluation of September 2025 said it \"cannot verify\" the crisis centers' reported diversion figures [14]; the FY2027 General Fund budget, as reported on final passage, withholds the last two quarterly installments of the $42 million for crisis diversion centers ($36 million) and rural crisis care ($6 million) until the Department reports the status of the programs to the General Fund budget chairs, the Finance Director and the Legislative Fiscal Officer [17] [18]; the Senate committee's version of the bill had required reports of each crisis center's operating expenses, employees and persons served [19]",
+   "refs": [
+    14,
+    17,
+    18,
+    19
+   ],
+   "block": "B0471"
+  },
+  {
+   "id": "e2-d2-d3",
+   "from": "d2",
+   "to": "d3",
+   "row": 2,
+   "pair": "Financing (2) → Services (3)",
+   "link": "Money sets capacity",
+   "evidence": "The Department's draft FY2026 request of December 2024 — $68.6 million more from the General Fund, including $23.4 million for civil-commitment beds and $11.5 million toward a goal of eleven crisis centers — was not funded on that scale [21] [20]: the FY2026 General Fund rose by about $4.7 million, with $8 million for civil-commitment and residential services and the six existing crisis centers at $36 million [20]. FY2027 kept the crisis-center ($36 million) and rural crisis-care ($6 million) lines and the $5 million child-and-adolescent mobile-crisis pilot level [20] [18], added $2.5 million for civil-commitment beds [18] and cut the 988 call-center line from $500,000 to zero [18]",
+   "refs": [
+    18,
+    20,
+    21
+   ],
+   "block": "B0471"
+  },
+  {
+   "id": "e3-s12-d3",
+   "from": "s12",
+   "to": "d3",
+   "row": 3,
+   "pair": "Payers (12) → Services (3) and Workforce (4)",
+   "link": "Payment model sets what is deliverable",
+   "evidence": "CCBHC prospective payment is a daily rate set for each clinic from a cost report of the total cost of operating the clinic [105] [285], which in this report's reading is why it can fund crisis, peer and case-management staff that fee schedules under-pay; four clinics are named in ADMH's May 2026 release (five in its service directory) [27] [28], and the first two served 30,275 people in FY2025 [16]",
+   "refs": [
+    16,
+    27,
+    28,
+    105,
+    285
+   ],
+   "block": "B0471"
+  },
+  {
+   "id": "e3-s12-d4",
+   "from": "s12",
+   "to": "d4",
+   "row": 3,
+   "pair": "Payers (12) → Services (3) and Workforce (4)",
+   "link": "Payment model sets what is deliverable",
+   "evidence": "CCBHC prospective payment is a daily rate set for each clinic from a cost report of the total cost of operating the clinic [105] [285], which in this report's reading is why it can fund crisis, peer and case-management staff that fee schedules under-pay; four clinics are named in ADMH's May 2026 release (five in its service directory) [27] [28], and the first two served 30,275 people in FY2025 [16]",
+   "refs": [
+    16,
+    27,
+    28,
+    105,
+    285
+   ],
+   "block": "B0471"
+  },
+  {
+   "id": "e4-d4-d3",
+   "from": "d4",
+   "to": "d3",
+   "row": 4,
+   "pair": "Workforce (4) → Services (3) and Justice (10)",
+   "link": "Staffing limits beds",
+   "evidence": "Taylor Hardin expanded from 140 to 225 beds, with about 200 filled by August 2026 [32]; the Commissioner told the board in August 2024 that only about half of its technician and nursing positions were filled [116] [136]; the forensic waitlist was 291 in July 2026, against a goal of 100 by the end of 2026 [32]",
+   "refs": [
+    32,
+    116,
+    136
+   ],
+   "block": "B0471"
+  },
+  {
+   "id": "e4-d4-s10",
+   "from": "d4",
+   "to": "s10",
+   "row": 4,
+   "pair": "Workforce (4) → Services (3) and Justice (10)",
+   "link": "Staffing limits beds",
+   "evidence": "Taylor Hardin expanded from 140 to 225 beds, with about 200 filled by August 2026 [32]; the Commissioner told the board in August 2024 that only about half of its technician and nursing positions were filled [116] [136]; the forensic waitlist was 291 in July 2026, against a goal of 100 by the end of 2026 [32]",
+   "refs": [
+    32,
+    116,
+    136
+   ],
+   "block": "B0471"
+  },
+  {
+   "id": "e5-d1-s9",
+   "from": "d1",
+   "to": "s9",
+   "row": 5,
+   "pair": "Governance (1) → Children (9)",
+   "link": "Law sets access rules",
+   "evidence": "SB101 (Act 2025-455, effective 1 October 2025) raised the age of independent consent for medical and mental-health treatment from 14 to 16 [59] [60]; since 2022 (Act 2022-442) schools must obtain written parental opt-in consent before mental-health services, at first for students under 14 [121] [60], and since October 2025 students under 16 cannot consent to ongoing school counseling on their own [59] [60]",
+   "refs": [
+    59,
+    60,
+    121
+   ],
+   "block": "B0471"
+  },
+  {
+   "id": "e6-d1-s10",
+   "from": "d1",
+   "to": "s10",
+   "row": 6,
+   "pair": "Governance (1) → Justice (10)",
+   "link": "Court orders set deadlines",
+   "evidence": "The _Hunter_ decree's inpatient-restoration term, extended in March 2025, runs to 31 January 2027 [11]; in _Braggs_, on 24 June 2026 the Eleventh Circuit affirmed the liability finding and the system-wide injunction but reversed the correctional-staffing mandate, some suicide-resistant cell requirements and the application of relief to Tutwiler, and returned those questions to the district court [69] [70]",
+   "refs": [
+    11,
+    69,
+    70
+   ],
+   "block": "B0471"
+  },
+  {
+   "id": "e7-d5-d3",
+   "from": "d5",
+   "to": "d3",
+   "row": 7,
+   "pair": "Infrastructure (5) → Services (3)",
+   "link": "Built capacity precedes use",
+   "evidence": "ACES measured the crisis centers' average utilization at 27 percent in FY2024 [14], which this report reads as capacity to absorb growth before new construction; the Department's response, printed with the evaluation, says \"most centers function at capacity most days\" [14]",
+   "refs": [
+    14
+   ],
+   "block": "B0471"
+  },
+  {
+   "id": "e8-d5-d6",
+   "from": "d5",
+   "to": "d6",
+   "row": 8,
+   "pair": "Infrastructure (5) → Data (6)",
+   "link": "Systems enable measurement",
+   "evidence": "As of December 2025 ADMH's connection to One Health Record was listed as a work in progress (\"ADMH W-I-P\") [45]; ACSIS takes client, episode, staff and billing submissions from mental-illness and CCBHC providers [149]",
+   "refs": [
+    45,
+    149
+   ],
+   "block": "B0471"
+  },
+  {
+   "id": "e9-s11-d3",
+   "from": "s11",
+   "to": "d3",
+   "row": 9,
+   "pair": "Housing/SDOH (11) → Services (3)",
+   "link": "Stability determines outcomes",
+   "evidence": "259 people in supported housing and 234 in supported employment against 94,410 served in the 2025 reporting year (240, 205 and 93,506 in 2024) [42] [43]; one $650,000 anti-eviction defense line, the Department's only housing-stability line in the FY2027 General Fund [18]",
+   "refs": [
+    18,
+    42,
+    43
+   ],
+   "block": "B0471"
+  },
+  {
+   "id": "e10-d7-d2",
+   "from": "d7",
+   "to": "d2",
+   "row": 10,
+   "pair": "Equity (7) → Financing (2)",
+   "link": "Coverage decides who the state pays for",
+   "evidence": "The Medicaid coverage gap is put at up to 155,000 people by Alabama Arise [36] [37]; KFF's July 2026 estimate is 86,000 uninsured adults in the gap itself and 147,000 who would become eligible if the state expanded [38]; 14.1 percent of Alabama adults with any mental illness are uninsured (U.S. 9.2 percent) [35]",
+   "refs": [
+    35,
+    36,
+    37,
+    38
+   ],
+   "block": "B0471"
+  },
+  {
+   "id": "e11-d8-d1",
+   "from": "d8",
+   "to": "d1",
+   "row": 11,
+   "pair": "Community (8) → Governance (1) and Financing (2)",
+   "link": "Advocacy moves policy",
+   "evidence": "The 2020–2024 crisis build-out followed local advocacy (in North Alabama, a 2019 petition signed by probate judges, police chiefs and sheriffs) [204] and a specific Department request, $18 million for three crisis centers [207], which the Legislature funded beginning with the FY2021 budget [208] [14]; the 2025 session did not fund the Department's draft request for a larger increase [21] [20], and the 2026 session conditioned the FY2027 crisis-center money on reporting [17] [19]",
+   "refs": [
+    14,
+    17,
+    19,
+    20,
+    21,
+    204,
+    207,
+    208
+   ],
+   "block": "B0471"
+  },
+  {
+   "id": "e11-d8-d2",
+   "from": "d8",
+   "to": "d2",
+   "row": 11,
+   "pair": "Community (8) → Governance (1) and Financing (2)",
+   "link": "Advocacy moves policy",
+   "evidence": "The 2020–2024 crisis build-out followed local advocacy (in North Alabama, a 2019 petition signed by probate judges, police chiefs and sheriffs) [204] and a specific Department request, $18 million for three crisis centers [207], which the Legislature funded beginning with the FY2021 budget [208] [14]; the 2025 session did not fund the Department's draft request for a larger increase [21] [20], and the 2026 session conditioned the FY2027 crisis-center money on reporting [17] [19]",
+   "refs": [
+    14,
+    17,
+    19,
+    20,
+    21,
+    204,
+    207,
+    208
+   ],
+   "block": "B0471"
+  },
+  {
+   "id": "e12-s9-d6",
+   "from": "s9",
+   "to": "d6",
+   "row": 12,
+   "pair": "Children (9) → Data (6)",
+   "link": "What is not measured is not managed",
+   "evidence": "Alabama's Youth Risk Behavior Survey was last conducted in 2021, and in 2023 the state returned the federal funds for it [171]; no later state survey was found as of October 2026; child-and-adolescent mobile-crisis counts (936 young people) appeared in the Department's annual report for the first time for FY2025 [16]",
+   "refs": [
+    16,
+    171
+   ],
+   "block": "B0471"
+  },
+  {
+   "id": "e13-s10-d7",
+   "from": "s10",
+   "to": "d7",
+   "row": 13,
+   "pair": "Justice (10) → Equity (7)",
+   "link": "Jails are a pathway into care",
+   "evidence": "291 people were waiting in county jails for psychiatric evaluation or treatment in July 2026 [32]; ADOC's mental-health caseload was about 3,400 of roughly 19,500 people in custody when the _Braggs_ suit was filed in 2014 [69]",
+   "refs": [
+    32,
+    69
+   ],
+   "block": "B0471"
+  }
+ ],
+ "reading": "Read together: a well-governed and well-financed system (1, 2) with enough staff (4) and built capacity (5) can deliver the full continuum (3) and measure it (6); housing and coverage (11, 12) decide who that system reaches (7); and organized communities (8) sustain the funding. In this report's reading, the binding constraints in Alabama in 2026 are coverage [36] [38], workforce [34] and data [14]."
+}

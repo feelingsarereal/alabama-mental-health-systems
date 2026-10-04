@@ -1,0 +1,335 @@
+{
+  "generated_by": "Manuscript Interrogator 0.5.2",
+  "mode": "topic",
+  "as_of": "2026-10-03",
+  "report_version": "v261003.1",
+  "words": 25917,
+  "sections": 155,
+  "blocks": {
+    "total": 436,
+    "by_kind": {
+      "li": 222,
+      "p": 180,
+      "table": 34
+    },
+    "cited": 307,
+    "framing": 88,
+    "synthesis": 97,
+    "uncited": 0
+  },
+  "terms": {
+    "glossary": 210,
+    "occurring_in_text": 210,
+    "linked": 210,
+    "linked_pct": 100,
+    "not_in_text": []
+  },
+  "references": {
+    "total": 329,
+    "with_summary": 329,
+    "without_summary": 0,
+    "by_tier": {
+      "background": 48,
+      "current": 269,
+      "seminal": 12
+    },
+    "by_read": {
+      "full": 255,
+      "partial": 74
+    },
+    "by_doc_type": {
+      "advocacy": 16,
+      "agency-page": 52,
+      "analysis": 2,
+      "budget": 9,
+      "court": 3,
+      "data-page": 3,
+      "dataset": 4,
+      "fact-sheet": 1,
+      "federal-data": 16,
+      "federal-guidance": 8,
+      "federal-page": 19,
+      "framework": 1,
+      "international-guidance": 1,
+      "journal-article": 1,
+      "national-ranking": 7,
+      "news": 7,
+      "organisation-page": 13,
+      "organization-page": 1,
+      "other": 21,
+      "plan": 1,
+      "press": 35,
+      "press-release": 25,
+      "provider-page": 1,
+      "regulation": 9,
+      "report": 2,
+      "research": 15,
+      "research-brief": 1,
+      "state-manual": 4,
+      "state-memo": 1,
+      "state-page": 7,
+      "state-report": 24,
+      "statute": 16,
+      "waiver-application": 1,
+      "web page": 2
+    },
+    "with_newer_edition": [
+      2,
+      7,
+      10,
+      17,
+      19,
+      20,
+      26,
+      31,
+      39,
+      43,
+      55,
+      82,
+      89,
+      93,
+      97,
+      105,
+      115,
+      121,
+      138,
+      151,
+      170,
+      216,
+      233,
+      235,
+      243,
+      246,
+      250,
+      254,
+      255,
+      269,
+      273,
+      282
+    ],
+    "url_status": {
+      "blocked": 1,
+      "moved": 55
+    },
+    "cited_in_body": 295,
+    "ledger_only": [
+      94
+    ],
+    "maps_glossary_primers_only": [
+      297,
+      298,
+      299,
+      300,
+      301,
+      302,
+      303,
+      304,
+      305,
+      306,
+      307,
+      308,
+      309,
+      310,
+      311,
+      312,
+      313,
+      314,
+      315,
+      316,
+      317,
+      318,
+      320,
+      321,
+      322,
+      323,
+      324,
+      325,
+      326,
+      327,
+      328,
+      329
+    ],
+    "unverified_but_cited": 0
+  },
+  "ledger": {
+    "entries": 2123,
+    "by_status": {
+      "absence": 114,
+      "analysis": 216,
+      "corrected": 289,
+      "newly-sourced": 313,
+      "reattributed": 99,
+      "removed": 30,
+      "self": 173,
+      "unverified": 4,
+      "updated": 133,
+      "verified": 752
+    },
+    "by_kind": {
+      "absence": 112,
+      "analysis": 216,
+      "description": 468,
+      "event": 168,
+      "figure": 761,
+      "role": 164,
+      "self": 112,
+      "status": 122
+    },
+    "anchored": 2090,
+    "unanchored_by_design": 2,
+    "removed": 30,
+    "anchor_errors": 1
+  },
+  "changes": {
+    "total": 744,
+    "by_type": {
+      "correction": 204,
+      "new-source": 125,
+      "reattribution": 52,
+      "removed": 16,
+      "softened": 43,
+      "update": 101,
+      "wording": 203
+    },
+    "by_weight": {
+      "minor": 538,
+      "substantive": 206
+    },
+    "by_pass": {
+      "announcement-check": 11,
+      "consistency": 40,
+      "editor-in-chief": 4,
+      "read-through": 63,
+      "section-editor": 620,
+      "spot-check": 6
+    },
+    "needs_author": 1,
+    "amends_revision": 80
+  },
+  "open_items": {
+    "total": 95,
+    "by_group": {
+      "Could not be confirmed": 48,
+      "Could not be read": 16,
+      "Editorial decision (not printed in Appendix D)": 1,
+      "Not published, as far as this review found": 25,
+      "Waiting on a date": 5
+    },
+    "by_who": {
+      "anyone-with-a-browser": 34,
+      "author": 27,
+      "next-review": 34
+    }
+  },
+  "figures": {
+    "total": 5,
+    "by_kind": {
+      "chart": 3,
+      "network": 1,
+      "table": 1
+    },
+    "by_synthesis": {
+      "conceptual": 1,
+      "data": 4
+    }
+  },
+  "concepts": 12,
+  "maps": {
+    "layers": 59,
+    "by_geography": {
+      "county": 36,
+      "state": 55
+    },
+    "by_group": {
+      "Coverage": 3,
+      "Coverage policy": 3,
+      "Deaths": 6,
+      "Health and community": 10,
+      "National rankings": 8,
+      "People and place": 16,
+      "Spending": 2,
+      "Workforce and shortage": 11
+    },
+    "counties": 67,
+    "states": 51,
+    "empty_cells": {
+      "chr_poor_mh_days": {
+        "county": 0,
+        "state": 2
+      },
+      "chr_freq_mental_distress": {
+        "county": 0,
+        "state": 2
+      },
+      "chr_suicide_rate": {
+        "county": 12,
+        "state": 0
+      },
+      "chr_drug_overdose_rate": {
+        "county": 19,
+        "state": 0
+      },
+      "chr_mh_provider_ratio": {
+        "county": 0,
+        "state": 1
+      },
+      "chr_pcp_ratio": {
+        "county": 2,
+        "state": 1
+      },
+      "chr_excessive_drinking": {
+        "county": 0,
+        "state": 2
+      },
+      "chr_loneliness": {
+        "county": 0,
+        "state": 11
+      },
+      "chr_lack_social_support": {
+        "county": 0,
+        "state": 11
+      },
+      "hpsa_mh_status": {
+        "county": 1,
+        "state": 0
+      },
+      "hpsa_mh_score": {
+        "county": 1,
+        "state": 0
+      },
+      "kff_mh_hpsa_population": {
+        "county": 0,
+        "state": 1
+      },
+      "kff_mh_hpsa_pct_need_met": {
+        "county": 0,
+        "state": 1
+      },
+      "kff_mh_hpsa_practitioners_needed": {
+        "county": 0,
+        "state": 1
+      },
+      "medicaid_expansion_date": {
+        "county": 0,
+        "state": 10
+      }
+    },
+    "overlay_records": {
+      "cmhc": 19,
+      "crisis": 6,
+      "mobile": 4,
+      "regions": 4,
+      "facilities": 18
+    },
+    "raw_files": 30
+  },
+  "systems": {
+    "nodes": 12,
+    "edges": 16,
+    "rows": 13,
+    "headline_indicators": 56
+  },
+  "todo_author": 169,
+  "search_documents": 2036,
+  "build_errors": 12
+}

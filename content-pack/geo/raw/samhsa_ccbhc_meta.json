@@ -1,0 +1,15 @@
+{
+ "retrieved": "2026-10-03",
+ "url": "https://www.samhsa.gov/communities/certified-community-behavioral-health-clinics/section-223",
+ "data_url": "https://www.samhsa.gov/communities/certified-community-behavioral-health-clinics/section-223 (alt text of the map image https://www.samhsa.gov/sites/default/files/ccbhc-map-2026.png)",
+ "page_last_updated": "07/06/2026",
+ "title": "Section 223 Medicaid CCBHC Demonstration and State Programs",
+ "legend": [
+  "Federal CCBHC Medicaid Demonstration",
+  "Approved to launch CCBHC Demonstration programs starting on July 1, 2026",
+  "CMS-approved payment method for CCBHCs via SPA or 1115 waiver separate from Demonstration",
+  "Contains at least one local SAMHSA expansion grantee"
+ ],
+ "page_text": "Starting in 2017, 67 CCBHCs were established in eight states through the Section 223 CCBHC Medicaid Demonstration (Demonstration). ... In 2019, Pennsylvania withdrew from the Demonstration and in 2023 Nevada moved their CCBHC program out of the Demonstration in made it a permanent part of their state Medicaid program. ... The first round of 24 SAMHSA state planning grants was awarded in 2015. Another round of 15 grants was funded in 2023, and SAMHSA anticipates funding an additional round of planning grants in 2025. ... Currently, there are over 500 CCBHCs operating across the country.",
+ "caveat": "The state lists come from the alt text of SAMHSA's map image, which assigns each state to exactly one category, while the map legend categories can overlap. The page text says eight states joined the Demonstration in 2017 (naming only Pennsylvania, which withdrew in 2019, and Nevada, which moved its program out in 2023); the page does not name the other six, and the alt text's 12-state 'participating in CCBHC Medicaid Demonstration' list may therefore omit earlier-cohort states that the alt text files under 'CMS-approved payment method'. Treat the 'demonstration' list as what SAMHSA's alt text states, not as a verified complete roster."
+}

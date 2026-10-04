@@ -1,0 +1,7 @@
+{
+ "retrieved": "2026-10-03",
+ "url": "https://www.kff.org/affordable-care-act/state-indicator/state-activity-around-expanding-medicaid-under-the-affordable-care-act/",
+ "timeframe": "October 2026",
+ "source_cited": "Current status for each state is based on KFF tracking and analysis of state executive activity.",
+ "notes": "States' decisions about adopting the Medicaid expansion are as of October 2026. US row at source: 'Adopted: 41 states (incl. DC); Not Adopted: 10 states'. Only the status and implementation-date columns are used in us_states.csv; the ballot-initiative and trigger-law columns are kept in the raw file only."
+}

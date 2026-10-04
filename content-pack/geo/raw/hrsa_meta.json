@@ -1,0 +1,15 @@
+{
+ "retrieved": "2026-10-03",
+ "page": "https://data.hrsa.gov/data/download",
+ "data_url": "https://data.hrsa.gov/DataDownload/DD_Files/BCD_HPSA_FCT_DET_MH.csv",
+ "last_modified_header": "Sat, 03 Oct 2026 11:01:44 GMT",
+ "data_warehouse_record_create_date": "10/03/2026",
+ "rows_in_file": 41296,
+ "alabama_rows": 247,
+ "method": "Filtered to Alabama rows; kept area-based designations (Designation Type = Geographic HPSA, High Needs Geographic HPSA, or HPSA Population) whose HPSA Status is not Withdrawn (Designated: 92 AL rows incl. facilities; Proposed For Withdrawal: 32; Withdrawn: 123). Every Alabama area-based mental health HPSA component is component type 'Single County' (SCTY), i.e. whole-county; no partial-county (census tract) components exist. Where a county has both a 'Designated' and a 'Proposed For Withdrawal' record (11 counties: Bibb, Blount, Calhoun, Cleburne, Jefferson, Lawrence, Limestone, Morgan, Pickens, St. Clair, Tuscaloosa) the 'Designated' record was kept. All HPSA Population designations in Alabama are population type LI (Low Income Population HPSA).",
+ "observations": [
+  "Madison County (01089) is the only Alabama county with no current area-based mental health HPSA; its only area record is 'Catchment Area M-3', Geographic HPSA, Withdrawn 09/20/1999. It has facility HPSAs (FQHCs) only.",
+  "21 of the 66 county rows are 'Proposed For Withdrawal' status and 45 are 'Designated' (still designated until HRSA publishes the withdrawal). By type: 26 geographic, 17 high-needs geographic, 23 low-income population, 1 none.",
+  "Facility designations (FQHC, RHC, correctional, tribal) are not included in the county layer."
+ ]
+}

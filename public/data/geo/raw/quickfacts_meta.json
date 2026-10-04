@@ -1,0 +1,27 @@
+{
+ "retrieved": "2026-10-03",
+ "page": "https://www.census.gov/quickfacts/fact/table/autaugacountyalabama,baldwincountyalabama,barbourcountyalabama,bibbcountyalabama,blountcountyalabama,bullockcountyalabama/PST045225",
+ "county_data_url_pattern": "https://www.census.gov/quickfacts/fact/csv/<6 county slugs e.g. autaugacountyalabama>/PST045225 (12 batches, 67 counties, alphabetical)",
+ "state_data_urls": ["/quickfacts/fact/csv/AL,AK,AZ,AR,CA,CO/PST045225","/quickfacts/fact/csv/CT,DE,DC,FL,GA,HI/PST045225","/quickfacts/fact/csv/ID,IL,IN,IA,KS,KY/PST045225","/quickfacts/fact/csv/LA,ME,MD,MA,MI,MN/PST045225","/quickfacts/fact/csv/MS,MO,MT,NE,NV,NH/PST045225","/quickfacts/fact/csv/NJ,NM,NY,NC,ND,OH/PST045225","/quickfacts/fact/csv/OK,OR,PA,RI,SC,SD/PST045225","/quickfacts/fact/csv/TN,TX,UT,VT,VA,WA/PST045225","/quickfacts/fact/csv/WV,WI,WY,US/PST045225"],
+ "facts": {
+  "pop_est": ["Population estimates, July 1, 2025, (V2025)", "PST045225", ""],
+  "pct_under18": ["Persons under 18 years, percent", "AGE295225", ""],
+  "pct_65plus": ["Persons 65 years and over, percent", "AGE775225", ""],
+  "pct_black": ["Black alone, percent", "RHI225225", "(a) Includes persons reporting only one race"],
+  "pct_hispanic": ["Hispanic or Latino, percent", "RHI725225", "(b) Hispanics may be of any race, so also are included in applicable race categories"],
+  "pct_white_nh": ["White alone, not Hispanic or Latino, percent", "RHI825225", ""],
+  "pct_aian": ["American Indian and Alaska Native alone, percent", "RHI325225", "(a) Includes persons reporting only one race"],
+  "veterans": ["Veterans, 2020-2024", "VET605224", ""],
+  "median_hh_income": ["Median households income (in 2024 dollars), 2020-2024", "INC110224", ""],
+  "per_capita_income": ["Per capita income in past 12 months (in 2024 dollars), 2020-2024", "INC910224", ""],
+  "pct_poverty": ["Persons in poverty, percent", "IPE120225", ""],
+  "pct_uninsured_u65": ["Persons without health insurance, under age 65 years, percent", "HEA775225", ""],
+  "pct_disability_u65": ["With a disability, under age 65 years, percent, 2020-2024", "DIS010224", ""],
+  "pct_broadband": ["Households with a broadband Internet subscription, percent, 2020-2024", "INT100224", ""],
+  "pct_bachelors": ["Bachelor's degree or higher, percent of persons age 25 years+, 2020-2024", "EDU685224", ""],
+  "pop_density": ["Population per square mile, 2020", "POP060220", ""],
+  "land_area_sqmi": ["Land area in square miles, 2020", "LND110220", ""]
+ },
+ "value_flags_in_csv": {"D":"Suppressed to avoid disclosure of confidential information","F":"Fewer than 25 firms","FN":"Footnote on this item in place of data","NA":"Not available","S":"Suppressed; does not meet publication standards","X":"Not applicable","Z":"Value greater than zero but less than half unit of measure shown","-":"Either no or too few sample observations were available to compute an estimate ...","N":"Data for this geographic area cannot be displayed because the number of sample cases is too small."},
+ "notes": "No flag values or value notes occurred in any of the 17 kept facts for the 67 counties or 52 state/DC/US columns. US FIPS in the CSV is \"1\". Sum of 67 county populations = 5,193,088 = Alabama state value; sum of county veterans = 303,253 = state value; sum of 50 states + DC population = 341,784,857 = US value."
+}

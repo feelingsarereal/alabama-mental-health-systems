@@ -1,0 +1,2193 @@
+{
+ "retrieved": "2026-10-03",
+ "publisher": "Alabama Department of Mental Health (ADMH), mh.alabama.gov",
+ "retrieval": "browser-js: page HTML fetched and parsed in the browser; captured text saved under raw/admh_*.txt and hash-checked (raw/checks.md). Items marked \"visual read\" come from ADMH map images viewed as browser screenshots.",
+ "community_mental_health_centers": {
+  "note": "19 centers as labelled on ADMH's \"Mental Illness Services\" map (CMHC-2026-MI-scaled.png). County assignments come from the Emergency Contact Numbers page (one provider per county), except Jefferson, Blount and St. Clair, which ADMH text and the map attribute to JBS while the Emergency Contact Numbers page lists Eastside Mental Health Center and other providers. See NOTES.md.",
+  "source_url": "https://mh.alabama.gov/emergency-numbers-for-mental-illness/",
+  "as_of": "2026-09-28 (page last modified); read 2026-10-03",
+  "map_url": "https://mh.alabama.gov/wp-content/uploads/2026/09/CMHC-2026-MI-scaled.png",
+  "centers": [
+   {
+    "center": "CARASTAR",
+    "name_on_emergency_page": "Carastar Health",
+    "counties": [
+     "Autauga",
+     "Elmore",
+     "Lowndes",
+     "Montgomery"
+    ],
+    "county_fips": [
+     "01001",
+     "01051",
+     "01085",
+     "01101"
+    ],
+    "ccbhc": false,
+    "ccbhc_date": null,
+    "ccbhc_basis": null
+   },
+   {
+    "center": "ALTAPOINTE",
+    "name_on_emergency_page": "AltaPointe Health",
+    "counties": [
+     "Baldwin",
+     "Clay",
+     "Coosa",
+     "Mobile",
+     "Randolph",
+     "Talladega",
+     "Washington"
+    ],
+    "county_fips": [
+     "01003",
+     "01027",
+     "01037",
+     "01097",
+     "01111",
+     "01121",
+     "01129"
+    ],
+    "ccbhc": true,
+    "ccbhc_date": "2024",
+    "ccbhc_basis": "ADMH release 2026-05-28: \"Altapointe ... and WellStone ... both moved to the CCBHC model in 2024.\""
+   },
+   {
+    "center": "SPECTRACARE",
+    "name_on_emergency_page": "SpectraCare Health Systems",
+    "counties": [
+     "Barbour",
+     "Dale",
+     "Geneva",
+     "Henry",
+     "Houston"
+    ],
+    "county_fips": [
+     "01005",
+     "01045",
+     "01061",
+     "01067",
+     "01069"
+    ],
+    "ccbhc": false,
+    "ccbhc_date": null,
+    "ccbhc_basis": null
+   },
+   {
+    "center": "INDIAN RIVERS",
+    "name_on_emergency_page": "Indian Rivers Behavioral Health",
+    "counties": [
+     "Bibb",
+     "Pickens",
+     "Tuscaloosa"
+    ],
+    "county_fips": [
+     "01007",
+     "01107",
+     "01125"
+    ],
+    "ccbhc": false,
+    "ccbhc_date": null,
+    "ccbhc_basis": null
+   },
+   {
+    "center": "JBS",
+    "name_on_emergency_page": "JBS Mental Health Authority",
+    "counties": [
+     "Blount",
+     "Jefferson",
+     "St. Clair"
+    ],
+    "county_fips": [
+     "01009",
+     "01073",
+     "01115"
+    ],
+    "ccbhc": false,
+    "ccbhc_date": null,
+    "ccbhc_basis": null
+   },
+   {
+    "center": "EAST CENTRAL",
+    "name_on_emergency_page": "East Central Alabama Mental Health Center",
+    "counties": [
+     "Bullock",
+     "Macon",
+     "Pike"
+    ],
+    "county_fips": [
+     "01011",
+     "01087",
+     "01109"
+    ],
+    "ccbhc": false,
+    "ccbhc_date": null,
+    "ccbhc_basis": null
+   },
+   {
+    "center": "SOUTH CENTRAL",
+    "name_on_emergency_page": "South Central Alabama Mental Health Center",
+    "counties": [
+     "Butler",
+     "Coffee",
+     "Covington",
+     "Crenshaw"
+    ],
+    "county_fips": [
+     "01013",
+     "01031",
+     "01039",
+     "01041"
+    ],
+    "ccbhc": true,
+    "ccbhc_date": null,
+    "ccbhc_basis": "Listed as a CCBHC in ADMH's CCBHC service directory (page modified 2026-09-28) and on ADMH's CCBHC locations map (file dated 2026/07); no approval or certification date found on ADMH pages, and it is not named in the 2026-05-28 release."
+   },
+   {
+    "center": "HIGHLAND",
+    "name_on_emergency_page": "Highland Health Systems",
+    "counties": [
+     "Calhoun",
+     "Cleburne"
+    ],
+    "county_fips": [
+     "01015",
+     "01029"
+    ],
+    "ccbhc": true,
+    "ccbhc_date": "2026-04",
+    "ccbhc_basis": "ADMH release 2026-05-28: Highland Health Systems received SAMHSA approval in April 2026."
+   },
+   {
+    "center": "INTEGREA",
+    "name_on_emergency_page": "Integrea",
+    "counties": [
+     "Chambers",
+     "Lee",
+     "Russell",
+     "Tallapoosa"
+    ],
+    "county_fips": [
+     "01017",
+     "01081",
+     "01113",
+     "01123"
+    ],
+    "ccbhc": false,
+    "ccbhc_date": null,
+    "ccbhc_basis": null
+   },
+   {
+    "center": "CED",
+    "name_on_emergency_page": "CED Mental Health Center",
+    "counties": [
+     "Cherokee",
+     "DeKalb",
+     "Etowah"
+    ],
+    "county_fips": [
+     "01019",
+     "01049",
+     "01055"
+    ],
+    "ccbhc": false,
+    "ccbhc_date": null,
+    "ccbhc_basis": null
+   },
+   {
+    "center": "CAW",
+    "name_on_emergency_page": "Central Alabama Wellness",
+    "counties": [
+     "Chilton",
+     "Shelby"
+    ],
+    "county_fips": [
+     "01021",
+     "01117"
+    ],
+    "ccbhc": false,
+    "ccbhc_date": null,
+    "ccbhc_basis": null
+   },
+   {
+    "center": "WEST",
+    "name_on_emergency_page": "West Alabama Mental Health Center",
+    "counties": [
+     "Choctaw",
+     "Greene",
+     "Hale",
+     "Marengo",
+     "Sumter"
+    ],
+    "county_fips": [
+     "01023",
+     "01063",
+     "01065",
+     "01091",
+     "01119"
+    ],
+    "ccbhc": false,
+    "ccbhc_date": null,
+    "ccbhc_basis": null
+   },
+   {
+    "center": "CAREPATH",
+    "name_on_emergency_page": "CarePath Behavioral Health",
+    "counties": [
+     "Clarke",
+     "Conecuh",
+     "Escambia",
+     "Monroe"
+    ],
+    "county_fips": [
+     "01025",
+     "01035",
+     "01053",
+     "01099"
+    ],
+    "ccbhc": false,
+    "ccbhc_date": null,
+    "ccbhc_basis": null
+   },
+   {
+    "center": "RIVERBEND",
+    "name_on_emergency_page": "Riverbend Center For Mental Health",
+    "counties": [
+     "Colbert",
+     "Franklin",
+     "Lauderdale"
+    ],
+    "county_fips": [
+     "01033",
+     "01059",
+     "01077"
+    ],
+    "ccbhc": false,
+    "ccbhc_date": null,
+    "ccbhc_basis": null
+   },
+   {
+    "center": "WELLSTONE",
+    "name_on_emergency_page": "WellStone Behavioral Health",
+    "counties": [
+     "Cullman",
+     "Madison"
+    ],
+    "county_fips": [
+     "01043",
+     "01089"
+    ],
+    "ccbhc": true,
+    "ccbhc_date": "2024",
+    "ccbhc_basis": "ADMH release 2026-05-28: \"Altapointe ... and WellStone ... both moved to the CCBHC model in 2024.\""
+   },
+   {
+    "center": "CAHABA",
+    "name_on_emergency_page": "Cahaba Center for Mental Health",
+    "counties": [
+     "Dallas",
+     "Perry",
+     "Wilcox"
+    ],
+    "county_fips": [
+     "01047",
+     "01105",
+     "01131"
+    ],
+    "ccbhc": false,
+    "ccbhc_date": null,
+    "ccbhc_basis": null
+   },
+   {
+    "center": "NORTHWEST",
+    "name_on_emergency_page": "Northwest Alabama Mental Health Center",
+    "counties": [
+     "Fayette",
+     "Lamar",
+     "Marion",
+     "Walker",
+     "Winston"
+    ],
+    "county_fips": [
+     "01057",
+     "01075",
+     "01093",
+     "01127",
+     "01133"
+    ],
+    "ccbhc": false,
+    "ccbhc_date": null,
+    "ccbhc_basis": null
+   },
+   {
+    "center": "MOUNTAIN LAKES",
+    "name_on_emergency_page": "Mountain Lakes Behavioral Healthcare",
+    "counties": [
+     "Jackson",
+     "Marshall"
+    ],
+    "county_fips": [
+     "01071",
+     "01095"
+    ],
+    "ccbhc": true,
+    "ccbhc_date": "2025-10",
+    "ccbhc_basis": "ADMH release 2026-05-28: Mountain Lakes Behavioral Healthcare \"received approval from ... SAMHSA in October 2025\"."
+   },
+   {
+    "center": "NORTH CENTRAL",
+    "name_on_emergency_page": "Mental Health Center of North Central Alabama",
+    "counties": [
+     "Lawrence",
+     "Limestone",
+     "Morgan"
+    ],
+    "county_fips": [
+     "01079",
+     "01083",
+     "01103"
+    ],
+    "ccbhc": false,
+    "ccbhc_date": null,
+    "ccbhc_basis": null
+   }
+  ],
+  "county_lookup": [
+   {
+    "fips": "01001",
+    "county": "Autauga",
+    "center": "CARASTAR",
+    "emergency_page_listing": [
+     {
+      "provider": "Carastar Health",
+      "phone": "800-408-4197"
+     }
+    ],
+    "basis": "single provider listed for the county on the Emergency Contact Numbers page"
+   },
+   {
+    "fips": "01003",
+    "county": "Baldwin",
+    "center": "ALTAPOINTE",
+    "emergency_page_listing": [
+     {
+      "provider": "AltaPointe Health",
+      "phone": "251-450-2211"
+     }
+    ],
+    "basis": "single provider listed for the county on the Emergency Contact Numbers page"
+   },
+   {
+    "fips": "01005",
+    "county": "Barbour",
+    "center": "SPECTRACARE",
+    "emergency_page_listing": [
+     {
+      "provider": "SpectraCare Health Systems",
+      "phone": "800-951-4357"
+     }
+    ],
+    "basis": "single provider listed for the county on the Emergency Contact Numbers page"
+   },
+   {
+    "fips": "01007",
+    "county": "Bibb",
+    "center": "INDIAN RIVERS",
+    "emergency_page_listing": [
+     {
+      "provider": "Indian Rivers Behavioral Health",
+      "phone": "205-926-4681"
+     }
+    ],
+    "basis": "single provider listed for the county on the Emergency Contact Numbers page"
+   },
+   {
+    "fips": "01009",
+    "county": "Blount",
+    "center": "JBS",
+    "emergency_page_listing": [
+     {
+      "provider": "Eastside Mental Health Center",
+      "phone": "205-625-3882"
+     }
+    ],
+    "basis": "ADMH names JBS (Jefferson, Blount, St. Clair Mental Health Authority) as the center for this county on its crisis and rural-crisis pages and on the Mental Illness Services map; the Emergency Contact Numbers page lists Eastside Mental Health Center"
+   },
+   {
+    "fips": "01011",
+    "county": "Bullock",
+    "center": "EAST CENTRAL",
+    "emergency_page_listing": [
+     {
+      "provider": "East Central Alabama Mental Health Center",
+      "phone": "334-738-5279"
+     }
+    ],
+    "basis": "single provider listed for the county on the Emergency Contact Numbers page"
+   },
+   {
+    "fips": "01013",
+    "county": "Butler",
+    "center": "SOUTH CENTRAL",
+    "emergency_page_listing": [
+     {
+      "provider": "South Central Alabama Mental Health Center",
+      "phone": "877-530-0002"
+     }
+    ],
+    "basis": "single provider listed for the county on the Emergency Contact Numbers page"
+   },
+   {
+    "fips": "01015",
+    "county": "Calhoun",
+    "center": "HIGHLAND",
+    "emergency_page_listing": [
+     {
+      "provider": "Highland Health Systems",
+      "phone": "256-236-3403"
+     }
+    ],
+    "basis": "single provider listed for the county on the Emergency Contact Numbers page"
+   },
+   {
+    "fips": "01017",
+    "county": "Chambers",
+    "center": "INTEGREA",
+    "emergency_page_listing": [
+     {
+      "provider": "Integrea",
+      "phone": "334-742-2877"
+     }
+    ],
+    "basis": "single provider listed for the county on the Emergency Contact Numbers page"
+   },
+   {
+    "fips": "01019",
+    "county": "Cherokee",
+    "center": "CED",
+    "emergency_page_listing": [
+     {
+      "provider": "CED Mental Health Center",
+      "phone": "256-492-7800"
+     }
+    ],
+    "basis": "single provider listed for the county on the Emergency Contact Numbers page"
+   },
+   {
+    "fips": "01021",
+    "county": "Chilton",
+    "center": "CAW",
+    "emergency_page_listing": [
+     {
+      "provider": "Central Alabama Wellness",
+      "phone": "205-651-0077"
+     }
+    ],
+    "basis": "single provider listed for the county on the Emergency Contact Numbers page"
+   },
+   {
+    "fips": "01023",
+    "county": "Choctaw",
+    "center": "WEST",
+    "emergency_page_listing": [
+     {
+      "provider": "West Alabama Mental Health Center",
+      "phone": "800-239-2901"
+     }
+    ],
+    "basis": "single provider listed for the county on the Emergency Contact Numbers page"
+   },
+   {
+    "fips": "01025",
+    "county": "Clarke",
+    "center": "CAREPATH",
+    "emergency_page_listing": [
+     {
+      "provider": "CarePath Behavioral Health",
+      "phone": "800-239-4673"
+     }
+    ],
+    "basis": "single provider listed for the county on the Emergency Contact Numbers page"
+   },
+   {
+    "fips": "01027",
+    "county": "Clay",
+    "center": "ALTAPOINTE",
+    "emergency_page_listing": [
+     {
+      "provider": "AltaPointe Health",
+      "phone": "251-450-2211"
+     }
+    ],
+    "basis": "single provider listed for the county on the Emergency Contact Numbers page"
+   },
+   {
+    "fips": "01029",
+    "county": "Cleburne",
+    "center": "HIGHLAND",
+    "emergency_page_listing": [
+     {
+      "provider": "Highland Health Systems",
+      "phone": "256-463-2969"
+     }
+    ],
+    "basis": "single provider listed for the county on the Emergency Contact Numbers page"
+   },
+   {
+    "fips": "01031",
+    "county": "Coffee",
+    "center": "SOUTH CENTRAL",
+    "emergency_page_listing": [
+     {
+      "provider": "South Central Alabama Mental Health Center",
+      "phone": "877-530-0002"
+     }
+    ],
+    "basis": "single provider listed for the county on the Emergency Contact Numbers page"
+   },
+   {
+    "fips": "01033",
+    "county": "Colbert",
+    "center": "RIVERBEND",
+    "emergency_page_listing": [
+     {
+      "provider": "Riverbend Center For Mental Health",
+      "phone": "256-764-3431"
+     }
+    ],
+    "basis": "single provider listed for the county on the Emergency Contact Numbers page"
+   },
+   {
+    "fips": "01035",
+    "county": "Conecuh",
+    "center": "CAREPATH",
+    "emergency_page_listing": [
+     {
+      "provider": "CarePath Behavioral Health",
+      "phone": "800-239-4673"
+     }
+    ],
+    "basis": "single provider listed for the county on the Emergency Contact Numbers page"
+   },
+   {
+    "fips": "01037",
+    "county": "Coosa",
+    "center": "ALTAPOINTE",
+    "emergency_page_listing": [
+     {
+      "provider": "AltaPointe Health",
+      "phone": "251-450-2211"
+     }
+    ],
+    "basis": "single provider listed for the county on the Emergency Contact Numbers page"
+   },
+   {
+    "fips": "01039",
+    "county": "Covington",
+    "center": "SOUTH CENTRAL",
+    "emergency_page_listing": [
+     {
+      "provider": "South Central Alabama Mental Health Center",
+      "phone": "877-530-0002"
+     }
+    ],
+    "basis": "single provider listed for the county on the Emergency Contact Numbers page"
+   },
+   {
+    "fips": "01041",
+    "county": "Crenshaw",
+    "center": "SOUTH CENTRAL",
+    "emergency_page_listing": [
+     {
+      "provider": "South Central Alabama Mental Health Center",
+      "phone": "877-530-0002"
+     }
+    ],
+    "basis": "single provider listed for the county on the Emergency Contact Numbers page"
+   },
+   {
+    "fips": "01043",
+    "county": "Cullman",
+    "center": "WELLSTONE",
+    "emergency_page_listing": [
+     {
+      "provider": "WellStone Behavioral Health",
+      "phone": "256-734-4688"
+     }
+    ],
+    "basis": "single provider listed for the county on the Emergency Contact Numbers page"
+   },
+   {
+    "fips": "01045",
+    "county": "Dale",
+    "center": "SPECTRACARE",
+    "emergency_page_listing": [
+     {
+      "provider": "SpectraCare Health Systems",
+      "phone": "800-951-4357"
+     }
+    ],
+    "basis": "single provider listed for the county on the Emergency Contact Numbers page"
+   },
+   {
+    "fips": "01047",
+    "county": "Dallas",
+    "center": "CAHABA",
+    "emergency_page_listing": [
+     {
+      "provider": "Cahaba Center for Mental Health",
+      "phone": "800-291-1920"
+     }
+    ],
+    "basis": "single provider listed for the county on the Emergency Contact Numbers page"
+   },
+   {
+    "fips": "01049",
+    "county": "DeKalb",
+    "center": "CED",
+    "emergency_page_listing": [
+     {
+      "provider": "CED Mental Health Center",
+      "phone": "256-492-7800"
+     }
+    ],
+    "basis": "single provider listed for the county on the Emergency Contact Numbers page"
+   },
+   {
+    "fips": "01051",
+    "county": "Elmore",
+    "center": "CARASTAR",
+    "emergency_page_listing": [
+     {
+      "provider": "Carastar Health",
+      "phone": "800-408-4197"
+     }
+    ],
+    "basis": "single provider listed for the county on the Emergency Contact Numbers page"
+   },
+   {
+    "fips": "01053",
+    "county": "Escambia",
+    "center": "CAREPATH",
+    "emergency_page_listing": [
+     {
+      "provider": "CarePath Behavioral Health",
+      "phone": "800-239-4673"
+     }
+    ],
+    "basis": "single provider listed for the county on the Emergency Contact Numbers page"
+   },
+   {
+    "fips": "01055",
+    "county": "Etowah",
+    "center": "CED",
+    "emergency_page_listing": [
+     {
+      "provider": "CED Mental Health Center",
+      "phone": "256-492-7800"
+     }
+    ],
+    "basis": "single provider listed for the county on the Emergency Contact Numbers page"
+   },
+   {
+    "fips": "01057",
+    "county": "Fayette",
+    "center": "NORTHWEST",
+    "emergency_page_listing": [
+     {
+      "provider": "Northwest Alabama Mental Health Center",
+      "phone": "205-302-9000"
+     }
+    ],
+    "basis": "single provider listed for the county on the Emergency Contact Numbers page"
+   },
+   {
+    "fips": "01059",
+    "county": "Franklin",
+    "center": "RIVERBEND",
+    "emergency_page_listing": [
+     {
+      "provider": "Riverbend Center For Mental Health",
+      "phone": "256-764-3431"
+     }
+    ],
+    "basis": "single provider listed for the county on the Emergency Contact Numbers page"
+   },
+   {
+    "fips": "01061",
+    "county": "Geneva",
+    "center": "SPECTRACARE",
+    "emergency_page_listing": [
+     {
+      "provider": "SpectraCare Health Systems",
+      "phone": "800-951-4357"
+     }
+    ],
+    "basis": "single provider listed for the county on the Emergency Contact Numbers page"
+   },
+   {
+    "fips": "01063",
+    "county": "Greene",
+    "center": "WEST",
+    "emergency_page_listing": [
+     {
+      "provider": "West Alabama Mental Health Center",
+      "phone": "800-239-2901"
+     }
+    ],
+    "basis": "single provider listed for the county on the Emergency Contact Numbers page"
+   },
+   {
+    "fips": "01065",
+    "county": "Hale",
+    "center": "WEST",
+    "emergency_page_listing": [
+     {
+      "provider": "West Alabama Mental Health Center",
+      "phone": "800-239-2901"
+     }
+    ],
+    "basis": "single provider listed for the county on the Emergency Contact Numbers page"
+   },
+   {
+    "fips": "01067",
+    "county": "Henry",
+    "center": "SPECTRACARE",
+    "emergency_page_listing": [
+     {
+      "provider": "SpectraCare Health Systems",
+      "phone": "800-951-4357"
+     }
+    ],
+    "basis": "single provider listed for the county on the Emergency Contact Numbers page"
+   },
+   {
+    "fips": "01069",
+    "county": "Houston",
+    "center": "SPECTRACARE",
+    "emergency_page_listing": [
+     {
+      "provider": "SpectraCare Health Systems",
+      "phone": "800-951-4357"
+     }
+    ],
+    "basis": "single provider listed for the county on the Emergency Contact Numbers page"
+   },
+   {
+    "fips": "01071",
+    "county": "Jackson",
+    "center": "MOUNTAIN LAKES",
+    "emergency_page_listing": [
+     {
+      "provider": "Mountain Lakes Behavioral Healthcare",
+      "phone": "866-223-2076"
+     }
+    ],
+    "basis": "single provider listed for the county on the Emergency Contact Numbers page"
+   },
+   {
+    "fips": "01073",
+    "county": "Jefferson",
+    "center": "JBS",
+    "emergency_page_listing": [
+     {
+      "provider": "Capitol Care South",
+      "phone": "205-956-2000"
+     },
+     {
+      "provider": "Choices of Alabama",
+      "phone": "205-639-1334"
+     },
+     {
+      "provider": "Eastside Mental Health Center",
+      "phone": "205-836-7283"
+     },
+     {
+      "provider": "Gateway",
+      "phone": "205-510-2600"
+     },
+     {
+      "provider": "Glenwood",
+      "phone": "205-969-2880"
+     },
+     {
+      "provider": "JBS Mental Health Authority",
+      "phone": "205-595-4555"
+     },
+     {
+      "provider": "Piper Place",
+      "phone": "205-323-7782"
+     },
+     {
+      "provider": "UAB Mental Health Center",
+      "phone": "205-934-4108"
+     }
+    ],
+    "basis": "ADMH names JBS (Jefferson, Blount, St. Clair Mental Health Authority) as the center for this county on its crisis and rural-crisis pages and on the Mental Illness Services map; the Emergency Contact Numbers page lists Capitol Care South, Choices of Alabama, Eastside Mental Health Center, Gateway, Glenwood, JBS Mental Health Authority, Piper Place, UAB Mental Health Center"
+   },
+   {
+    "fips": "01075",
+    "county": "Lamar",
+    "center": "NORTHWEST",
+    "emergency_page_listing": [
+     {
+      "provider": "Northwest Alabama Mental Health Center",
+      "phone": "205-302-9000"
+     }
+    ],
+    "basis": "single provider listed for the county on the Emergency Contact Numbers page"
+   },
+   {
+    "fips": "01077",
+    "county": "Lauderdale",
+    "center": "RIVERBEND",
+    "emergency_page_listing": [
+     {
+      "provider": "Riverbend Center For Mental Health",
+      "phone": "256-764-3431"
+     }
+    ],
+    "basis": "single provider listed for the county on the Emergency Contact Numbers page"
+   },
+   {
+    "fips": "01079",
+    "county": "Lawrence",
+    "center": "NORTH CENTRAL",
+    "emergency_page_listing": [
+     {
+      "provider": "Mental Health Center of North Central Alabama",
+      "phone": "256-355-5904"
+     }
+    ],
+    "basis": "single provider listed for the county on the Emergency Contact Numbers page"
+   },
+   {
+    "fips": "01081",
+    "county": "Lee",
+    "center": "INTEGREA",
+    "emergency_page_listing": [
+     {
+      "provider": "Integrea",
+      "phone": "334-742-2877"
+     }
+    ],
+    "basis": "single provider listed for the county on the Emergency Contact Numbers page"
+   },
+   {
+    "fips": "01083",
+    "county": "Limestone",
+    "center": "NORTH CENTRAL",
+    "emergency_page_listing": [
+     {
+      "provider": "Mental Health Center of North Central Alabama",
+      "phone": "256-355-5904"
+     }
+    ],
+    "basis": "single provider listed for the county on the Emergency Contact Numbers page"
+   },
+   {
+    "fips": "01085",
+    "county": "Lowndes",
+    "center": "CARASTAR",
+    "emergency_page_listing": [
+     {
+      "provider": "Carastar Health",
+      "phone": "800-408-4197"
+     }
+    ],
+    "basis": "single provider listed for the county on the Emergency Contact Numbers page"
+   },
+   {
+    "fips": "01087",
+    "county": "Macon",
+    "center": "EAST CENTRAL",
+    "emergency_page_listing": [
+     {
+      "provider": "East Central Alabama Mental Health Center",
+      "phone": "334-727-7001"
+     }
+    ],
+    "basis": "single provider listed for the county on the Emergency Contact Numbers page"
+   },
+   {
+    "fips": "01089",
+    "county": "Madison",
+    "center": "WELLSTONE",
+    "emergency_page_listing": [
+     {
+      "provider": "WellStone Behavioral Health",
+      "phone": "256-533-1970"
+     }
+    ],
+    "basis": "single provider listed for the county on the Emergency Contact Numbers page"
+   },
+   {
+    "fips": "01091",
+    "county": "Marengo",
+    "center": "WEST",
+    "emergency_page_listing": [
+     {
+      "provider": "West Alabama Mental Health Center",
+      "phone": "800-239-2901"
+     }
+    ],
+    "basis": "single provider listed for the county on the Emergency Contact Numbers page"
+   },
+   {
+    "fips": "01093",
+    "county": "Marion",
+    "center": "NORTHWEST",
+    "emergency_page_listing": [
+     {
+      "provider": "Northwest Alabama Mental Health Center",
+      "phone": "205-302-9000"
+     }
+    ],
+    "basis": "single provider listed for the county on the Emergency Contact Numbers page"
+   },
+   {
+    "fips": "01095",
+    "county": "Marshall",
+    "center": "MOUNTAIN LAKES",
+    "emergency_page_listing": [
+     {
+      "provider": "Mountain Lakes Behavioral Healthcare",
+      "phone": "866-223-2076"
+     }
+    ],
+    "basis": "single provider listed for the county on the Emergency Contact Numbers page"
+   },
+   {
+    "fips": "01097",
+    "county": "Mobile",
+    "center": "ALTAPOINTE",
+    "emergency_page_listing": [
+     {
+      "provider": "AltaPointe Health",
+      "phone": "251-450-2211"
+     }
+    ],
+    "basis": "single provider listed for the county on the Emergency Contact Numbers page"
+   },
+   {
+    "fips": "01099",
+    "county": "Monroe",
+    "center": "CAREPATH",
+    "emergency_page_listing": [
+     {
+      "provider": "CarePath Behavioral Health",
+      "phone": "800-239-4673"
+     }
+    ],
+    "basis": "single provider listed for the county on the Emergency Contact Numbers page"
+   },
+   {
+    "fips": "01101",
+    "county": "Montgomery",
+    "center": "CARASTAR",
+    "emergency_page_listing": [
+     {
+      "provider": "Carastar Health",
+      "phone": "800-408-4197"
+     }
+    ],
+    "basis": "single provider listed for the county on the Emergency Contact Numbers page"
+   },
+   {
+    "fips": "01103",
+    "county": "Morgan",
+    "center": "NORTH CENTRAL",
+    "emergency_page_listing": [
+     {
+      "provider": "Mental Health Center of North Central Alabama",
+      "phone": "256-355-5904"
+     }
+    ],
+    "basis": "single provider listed for the county on the Emergency Contact Numbers page"
+   },
+   {
+    "fips": "01105",
+    "county": "Perry",
+    "center": "CAHABA",
+    "emergency_page_listing": [
+     {
+      "provider": "Cahaba Center for Mental Health",
+      "phone": "800-291-1920"
+     }
+    ],
+    "basis": "single provider listed for the county on the Emergency Contact Numbers page"
+   },
+   {
+    "fips": "01107",
+    "county": "Pickens",
+    "center": "INDIAN RIVERS",
+    "emergency_page_listing": [
+     {
+      "provider": "Indian Rivers Behavioral Health",
+      "phone": "205-367-8032"
+     }
+    ],
+    "basis": "single provider listed for the county on the Emergency Contact Numbers page"
+   },
+   {
+    "fips": "01109",
+    "county": "Pike",
+    "center": "EAST CENTRAL",
+    "emergency_page_listing": [
+     {
+      "provider": "East Central Alabama Mental Health Center",
+      "phone": "334-566-6022"
+     }
+    ],
+    "basis": "single provider listed for the county on the Emergency Contact Numbers page"
+   },
+   {
+    "fips": "01111",
+    "county": "Randolph",
+    "center": "ALTAPOINTE",
+    "emergency_page_listing": [
+     {
+      "provider": "AltaPointe Health",
+      "phone": "251-450-2211"
+     }
+    ],
+    "basis": "single provider listed for the county on the Emergency Contact Numbers page"
+   },
+   {
+    "fips": "01113",
+    "county": "Russell",
+    "center": "INTEGREA",
+    "emergency_page_listing": [
+     {
+      "provider": "Integrea",
+      "phone": "334-742-2877"
+     }
+    ],
+    "basis": "single provider listed for the county on the Emergency Contact Numbers page"
+   },
+   {
+    "fips": "01117",
+    "county": "Shelby",
+    "center": "CAW",
+    "emergency_page_listing": [
+     {
+      "provider": "Central Alabama Wellness",
+      "phone": "205-651-0077"
+     }
+    ],
+    "basis": "single provider listed for the county on the Emergency Contact Numbers page"
+   },
+   {
+    "fips": "01115",
+    "county": "St. Clair",
+    "center": "JBS",
+    "emergency_page_listing": [
+     {
+      "provider": "Eastside Mental Health Center",
+      "phone": "205-338-7525"
+     },
+     {
+      "provider": "Restore Health Group",
+      "phone": "205-472-2700"
+     }
+    ],
+    "basis": "ADMH names JBS (Jefferson, Blount, St. Clair Mental Health Authority) as the center for this county on its crisis and rural-crisis pages and on the Mental Illness Services map; the Emergency Contact Numbers page lists Eastside Mental Health Center, Restore Health Group"
+   },
+   {
+    "fips": "01119",
+    "county": "Sumter",
+    "center": "WEST",
+    "emergency_page_listing": [
+     {
+      "provider": "West Alabama Mental Health Center",
+      "phone": "800-239-2901"
+     }
+    ],
+    "basis": "single provider listed for the county on the Emergency Contact Numbers page"
+   },
+   {
+    "fips": "01123",
+    "county": "Tallapoosa",
+    "center": "INTEGREA",
+    "emergency_page_listing": [
+     {
+      "provider": "Integrea",
+      "phone": "334-742-2877"
+     }
+    ],
+    "basis": "single provider listed for the county on the Emergency Contact Numbers page"
+   },
+   {
+    "fips": "01121",
+    "county": "Talladega",
+    "center": "ALTAPOINTE",
+    "emergency_page_listing": [
+     {
+      "provider": "AltaPointe Health",
+      "phone": "251-450-2211"
+     }
+    ],
+    "basis": "single provider listed for the county on the Emergency Contact Numbers page"
+   },
+   {
+    "fips": "01125",
+    "county": "Tuscaloosa",
+    "center": "INDIAN RIVERS",
+    "emergency_page_listing": [
+     {
+      "provider": "Indian Rivers Behavioral Health",
+      "phone": "205-391-3131"
+     }
+    ],
+    "basis": "single provider listed for the county on the Emergency Contact Numbers page"
+   },
+   {
+    "fips": "01127",
+    "county": "Walker",
+    "center": "NORTHWEST",
+    "emergency_page_listing": [
+     {
+      "provider": "Northwest Alabama Mental Health Center",
+      "phone": "205-302-9000"
+     }
+    ],
+    "basis": "single provider listed for the county on the Emergency Contact Numbers page"
+   },
+   {
+    "fips": "01129",
+    "county": "Washington",
+    "center": "ALTAPOINTE",
+    "emergency_page_listing": [
+     {
+      "provider": "AltaPointe Health",
+      "phone": "251-450-2211"
+     }
+    ],
+    "basis": "single provider listed for the county on the Emergency Contact Numbers page"
+   },
+   {
+    "fips": "01131",
+    "county": "Wilcox",
+    "center": "CAHABA",
+    "emergency_page_listing": [
+     {
+      "provider": "Cahaba Center for Mental Health",
+      "phone": "800-291-1920"
+     }
+    ],
+    "basis": "single provider listed for the county on the Emergency Contact Numbers page"
+   },
+   {
+    "fips": "01133",
+    "county": "Winston",
+    "center": "NORTHWEST",
+    "emergency_page_listing": [
+     {
+      "provider": "Northwest Alabama Mental Health Center",
+      "phone": "205-302-9000"
+     }
+    ],
+    "basis": "single provider listed for the county on the Emergency Contact Numbers page"
+   }
+  ],
+  "by_provider_listing_verbatim": [
+   "AltaPointe Health | Baldwin / Clay / Coosa / Randolph / Talladega / Washington – 251-450-2211",
+   "Cahaba Center for Mental Health | Dallas / Perry / Wilcox – 800-291-1920",
+   "Carastar Health | Autauga / Elmore / Lowndes / Montgomery – 800-408-4197",
+   "CarePath Behavioral Health | Clarke / Conecuh / Escambia / Monroe – 800-239-4673",
+   "CED Mental Health Center | Cherokee / DeKalb / Etowah – 256-492-7800",
+   "Central Alabama Wellness | Chilton / Shelby – 205-651-0077",
+   "East Central Alabama Mental Health Center | Bullock – 334-738-5279",
+   "East Central Alabama Mental Health Center | Macon – 334-727-7001",
+   "East Central Alabama Mental Health Center | Pike – 334-566-6022",
+   "Eastside Mental Health Center | Blount – 205-625-3882",
+   "Eastside Mental Health Center | Jefferson – 205-836-7283",
+   "Eastside Mental Health Center | St. Clair – 205-338-7525",
+   "Gateway Family Solutions | Jefferson – 205-510-2600",
+   "Glenwood | Jefferson – 205-969-2880",
+   "Highland Health Systems | Calhoun – 256-236-3403",
+   "Highland Health Systems | Cleburne – 256-463-2969",
+   "Indian Rivers Behavioral Health | Bibb – 205-926-4681",
+   "Indian Rivers Behavioral Health | Pickens – 205-367-8032",
+   "Indian Rivers Behavioral Health | Tuscaloosa – 205-391-3131",
+   "Integrea Mental Health | Chambers / Lee / Russell / Tallapoosa – 334-742-2877",
+   "JBS Mental Health Authority | Jefferson – 205-595-4555",
+   "Mental Health Center of North Central Alabama | Lawrence / Limestone / Morgan – 256-355-5904",
+   "Mountain Lakes Behavioral Healthcare | Jackson / Marshall – 866-223-2076",
+   "Northwest Alabama Mental Health Center | Fayette / Lamar / Marion / Walker / Winston – 205-302-9000",
+   "Piper Place | Jefferson – 205-323-7782",
+   "Restore Health Group | St. Clair – 205-472-2700",
+   "Riverbend Center for Mental Health | Colbert / Franklin / Lauderdale – 256-764-3431",
+   "South Central Alabama Mental Health Center | Butler / Coffee / Covington / Crenshaw – 877-530-0002",
+   "SpectraCare Health Systems | Barbour / Dale / Geneva / Henry / Houston – 800-951-4357",
+   "WellStone Behavioral Health | Cullman – 256-734-4688",
+   "WellStone Behavioral Health | Madison – 256-533-1970",
+   "West Alabama Mental Health Center | Choctaw / Greene / Hale / Marengo / Sumter – 800-239-2901",
+   "UAB Mental Health Clinic | Jefferson – 205-934-4108"
+  ]
+ },
+ "ccbhc": {
+  "note": "Organisations ADMH lists as CCBHCs. ADMH pages give approval months (\"received approval from SAMHSA in October 2025 and April 2026\") and \"moved to the CCBHC model in 2024\"; no exact certification dates are published on the pages read.",
+  "source_url": "https://mh.alabama.gov/certified-community-behavioral-health-clinics/for-individuals-seeking-services/",
+  "as_of": "2026-09-28 (page last modified); read 2026-10-03",
+  "release_url": "https://mh.alabama.gov/alabama-continues-statewide-transition-to-certified-community-behavioral-health-clinic-model-expanding-into-two-new-areas-of-the-state/",
+  "release_date": "2026-05-28",
+  "selection_release_url": "https://mh.alabama.gov/alabama-selected-for-certified-community-behavioral-health-clinic-medicaid-demonstration-program/",
+  "selection_release_date": "2024-06-05",
+  "selection_release_text": "Alabama is one of ten states selected for the Certified Community Behavioral Health Clinic (CCBHC) Medicaid Demonstration Program",
+  "map_url": "https://mh.alabama.gov/wp-content/uploads/2026/07/CCBHC.png",
+  "clinics": [
+   {
+    "center": "ALTAPOINTE",
+    "directory_name": "AltaPointe Health",
+    "counties": [
+     "Baldwin",
+     "Clay",
+     "Coosa",
+     "Mobile",
+     "Randolph",
+     "Talladega",
+     "Washington"
+    ],
+    "county_fips": [
+     "01003",
+     "01027",
+     "01037",
+     "01097",
+     "01111",
+     "01121",
+     "01129"
+    ],
+    "date": "2024",
+    "basis": "ADMH release 2026-05-28: \"Altapointe ... and WellStone ... both moved to the CCBHC model in 2024.\""
+   },
+   {
+    "center": "SOUTH CENTRAL",
+    "directory_name": "South Central Alabama Mental Health",
+    "counties": [
+     "Butler",
+     "Coffee",
+     "Covington",
+     "Crenshaw"
+    ],
+    "county_fips": [
+     "01013",
+     "01031",
+     "01039",
+     "01041"
+    ],
+    "date": null,
+    "basis": "Listed as a CCBHC in ADMH's CCBHC service directory (page modified 2026-09-28) and on ADMH's CCBHC locations map (file dated 2026/07); no approval or certification date found on ADMH pages, and it is not named in the 2026-05-28 release."
+   },
+   {
+    "center": "HIGHLAND",
+    "directory_name": "Highland Health Systems",
+    "counties": [
+     "Calhoun",
+     "Cleburne"
+    ],
+    "county_fips": [
+     "01015",
+     "01029"
+    ],
+    "date": "2026-04",
+    "basis": "ADMH release 2026-05-28: Highland Health Systems received SAMHSA approval in April 2026."
+   },
+   {
+    "center": "WELLSTONE",
+    "directory_name": "WellStone",
+    "counties": [
+     "Cullman",
+     "Madison"
+    ],
+    "county_fips": [
+     "01043",
+     "01089"
+    ],
+    "date": "2024",
+    "basis": "ADMH release 2026-05-28: \"Altapointe ... and WellStone ... both moved to the CCBHC model in 2024.\""
+   },
+   {
+    "center": "MOUNTAIN LAKES",
+    "directory_name": "Mountain Lakes Behavioral Healthcare",
+    "counties": [
+     "Jackson",
+     "Marshall"
+    ],
+    "county_fips": [
+     "01071",
+     "01095"
+    ],
+    "date": "2025-10",
+    "basis": "ADMH release 2026-05-28: Mountain Lakes Behavioral Healthcare \"received approval from ... SAMHSA in October 2025\"."
+   }
+  ],
+  "service_directory_verbatim": [
+   "P: AltaPointe Health Access to Care 251-450-2211",
+   "P: The following locations offer the full scope of CCBHC services.",
+   "P: 83900 AL-9, Ashland, AL 36251 201 E. Camphor Avenue, Foley, AL 36536 200 E. Fig Avenue, Foley, AL 36536 2400 Gordon Smith Drive, Mobile, AL 36617 2401 Gordon Smith Drive, Mobile, AL 36617 2419 Gordon Smith Drive, Mobile, AL 36617 2424 Gordon Smith Drive, Mobile, AL 36617 1661 Old Birmingham Hwy, Sylacauga, AL 35150",
+   "P: The following locations offer limited CCBHC services.",
+   "P: 2009 Medical Center Drive, Bay Minette, AL 36507 1507 US Hwy 31 South, Bay Minette, AL 36507 13833 Tapia Avenue, Bayou La Batre, AL 36509 63 Dixie Youth Drive, Chatom, AL 36518 372 S. Greeno Road, Fairhope, AL 36532 4211 Government Blvd, Mobile, AL 36693 6908 Providence Park Drive, Mobile, AL 36695 5800 Southland Drive, Mobile, AL 36693 7280 Sellers Lane, Mobile, AL 36608 7347 Zeigler Circle, Mobile, AL 36608 706 Main Street, Roanoke, AL 36274 9518 US Hwy 231, Rockford, AL 35136 10 Bemiston Avenue, Talladega, AL 35160",
+   "P: Highland Health Systems Access to Care: 256-236-3403",
+   "P: The following location offers the full scope of CCBHC services.",
+   "P: 331 East 8th Street, Anniston, AL 36207",
+   "P: 15386 Highway 78 E, Fruithurst, AL 36262 1460 2nd Avenue SW, Suite B, Jacksonville, AL 36265",
+   "P: Mountain Lakes Behavioral Healthcare Access to Care: 256-259-1774",
+   "P: 2409 Homer Clayton Drive, Guntersville, AL 35976 16003 AL-HWY 35, Scottsboro, AL 35768",
+   "P: South Central Alabama Mental Health Access to Care: 1-877-530-0002",
+   "P: 19815 Bay Branch Road, Andalusia, AL 36420",
+   "P: The following locations offer limited CCBHC services",
+   "P: 205 Academy Drive, Andalusia, AL 36420 801 Aviation Boulevard, Enterprise, AL 36330 2861 Neal Metcalf Road, Enterprise, AL 36330 680 Hardscramble Road, Greenville, AL 36037 185 Industrial Parkway, Greenville, AL 36037 587 Bentley Avenue, Luverne, AL 36049",
+   "P: WellStone",
+   "P: Cullman: 256-255-1020 1909 Commerce Avenue, Cullman, AL 35055",
+   "P: Huntsville: 256-533-1970 4040 Memorial Parkway SW, Huntsville, AL 35802"
+  ]
+ },
+ "crisis_centers": {
+  "note": "Six crisis diversion centers with the county lists on ADMH's Crisis Centers page (\"Serving: ...\"). 60 counties are assigned; the 7 not assigned to any center are listed in counties_without_center, matching the alt text of ADMH's crisis-center map on the Crisis System of Care page.",
+  "centers": [
+   {
+    "name": "AltaPointe: Behavioral Health Crisis Center",
+    "operator": "AltaPointe Health",
+    "phone": "251-662-8000",
+    "address": "2401 Gordon Smith Drive, Mobile, AL 36617",
+    "city": "Mobile",
+    "county": "Mobile",
+    "county_basis": "county in which the city lies; the county is also in this center's own \"Serving\" list",
+    "catchment_counties": [
+     "Baldwin",
+     "Clarke",
+     "Conecuh",
+     "Escambia",
+     "Mobile",
+     "Monroe",
+     "Washington"
+    ],
+    "catchment_fips": [
+     "01003",
+     "01025",
+     "01035",
+     "01053",
+     "01097",
+     "01099",
+     "01129"
+    ],
+    "opened": "5/1/21",
+    "opened_basis": "date printed on ADMH map image Crisis-Centers-FY26-Map-scaled.png (visual read from a browser screenshot)",
+    "source_url": "https://mh.alabama.gov/crisis-centers/",
+    "as_of": "2026-07-27 (page last modified); read 2026-10-03"
+   },
+   {
+    "name": "Carastar Crisis Center",
+    "operator": "Carastar Health",
+    "phone": "800-408-4197",
+    "address": "5915 Carmichael Road, Montgomery, AL 36117",
+    "city": "Montgomery",
+    "county": "Montgomery",
+    "county_basis": "county in which the city lies; the county is also in this center's own \"Serving\" list",
+    "catchment_counties": [
+     "Autauga",
+     "Bullock",
+     "Chambers",
+     "Elmore",
+     "Lee",
+     "Lowndes",
+     "Macon",
+     "Montgomery",
+     "Pike",
+     "Russell",
+     "Tallapoosa"
+    ],
+    "catchment_fips": [
+     "01001",
+     "01011",
+     "01017",
+     "01051",
+     "01081",
+     "01085",
+     "01087",
+     "01101",
+     "01109",
+     "01113",
+     "01123"
+    ],
+    "opened": "5/16/22",
+    "opened_basis": "date printed on ADMH map image Crisis-Centers-FY26-Map-scaled.png (visual read from a browser screenshot)",
+    "source_url": "https://mh.alabama.gov/crisis-centers/",
+    "as_of": "2026-07-27 (page last modified); read 2026-10-03"
+   },
+   {
+    "name": "JBS: Craig Crisis Care Center",
+    "operator": "Jefferson, Blount, St. Clair Behavioral Services (JBS)",
+    "phone": "205-263-1701",
+    "address": "401 Beacon Parkway W, Birmingham, AL 35209",
+    "city": "Birmingham",
+    "county": "Jefferson",
+    "county_basis": "county in which the city lies; the county is also in this center's own \"Serving\" list",
+    "catchment_counties": [
+     "Blount",
+     "Calhoun",
+     "Chilton",
+     "Clay",
+     "Cleburne",
+     "Coosa",
+     "Jefferson",
+     "Randolph",
+     "St. Clair",
+     "Shelby",
+     "Talladega"
+    ],
+    "catchment_fips": [
+     "01009",
+     "01015",
+     "01021",
+     "01027",
+     "01029",
+     "01037",
+     "01073",
+     "01111",
+     "01115",
+     "01117",
+     "01121"
+    ],
+    "opened": "3/23/23",
+    "opened_basis": "date printed on ADMH map image Crisis-Centers-FY26-Map-scaled.png (visual read from a browser screenshot)",
+    "source_url": "https://mh.alabama.gov/crisis-centers/",
+    "as_of": "2026-07-27 (page last modified); read 2026-10-03"
+   },
+   {
+    "name": "Indian Rivers: Hope Pointe Behavioral Health Crisis Care",
+    "operator": "Indian Rivers Behavioral Health",
+    "phone": "205-391-4000",
+    "address": "1401 Greensboro Avenue, Tuscaloosa, AL 35401",
+    "city": "Tuscaloosa",
+    "county": "Tuscaloosa",
+    "county_basis": "county in which the city lies; the county is also in this center's own \"Serving\" list",
+    "catchment_counties": [
+     "Bibb",
+     "Choctaw",
+     "Dallas",
+     "Greene",
+     "Hale",
+     "Marengo",
+     "Perry",
+     "Pickens",
+     "Sumter",
+     "Tuscaloosa",
+     "Wilcox"
+    ],
+    "catchment_fips": [
+     "01007",
+     "01023",
+     "01047",
+     "01063",
+     "01065",
+     "01091",
+     "01105",
+     "01107",
+     "01119",
+     "01125",
+     "01131"
+    ],
+    "opened": "10/17/23",
+    "opened_basis": "date printed on ADMH map image Crisis-Centers-FY26-Map-scaled.png (visual read from a browser screenshot)",
+    "source_url": "https://mh.alabama.gov/crisis-centers/",
+    "as_of": "2026-07-27 (page last modified); read 2026-10-03"
+   },
+   {
+    "name": "SpectraCare Crisis Center",
+    "operator": "SpectraCare Health Systems",
+    "phone": "800-951-4357",
+    "address": "2740 Headland Avenue, Dothan, AL 36303",
+    "city": "Dothan",
+    "county": "Houston",
+    "county_basis": "county in which the city lies; the county is also in this center's own \"Serving\" list",
+    "catchment_counties": [
+     "Barbour",
+     "Dale",
+     "Geneva",
+     "Henry",
+     "Houston"
+    ],
+    "catchment_fips": [
+     "01005",
+     "01045",
+     "01061",
+     "01067",
+     "01069"
+    ],
+    "opened": "2/17/25",
+    "opened_basis": "date printed on ADMH map image Crisis-Centers-FY26-Map-scaled.png (visual read from a browser screenshot)",
+    "source_url": "https://mh.alabama.gov/crisis-centers/",
+    "as_of": "2026-07-27 (page last modified); read 2026-10-03"
+   },
+   {
+    "name": "WellStone Emergency Services & WellStone Pediatric Crisis Care",
+    "operator": "WellStone",
+    "phone": "256-705-6444",
+    "address": "4020 Memorial Parkway SW, Huntsville, AL 35802",
+    "city": "Huntsville",
+    "county": "Madison",
+    "county_basis": "county in which the city lies; the county is also in this center's own \"Serving\" list",
+    "catchment_counties": [
+     "Cherokee",
+     "Cullman",
+     "DeKalb",
+     "Etowah",
+     "Fayette",
+     "Jackson",
+     "Lamar",
+     "Lawrence",
+     "Limestone",
+     "Madison",
+     "Marion",
+     "Marshall",
+     "Morgan",
+     "Walker",
+     "Winston"
+    ],
+    "catchment_fips": [
+     "01019",
+     "01043",
+     "01049",
+     "01055",
+     "01057",
+     "01071",
+     "01075",
+     "01079",
+     "01083",
+     "01089",
+     "01093",
+     "01095",
+     "01103",
+     "01127",
+     "01133"
+    ],
+    "opened": "5/4/21",
+    "opened_basis": "date printed on ADMH map image Crisis-Centers-FY26-Map-scaled.png (visual read from a browser screenshot)",
+    "source_url": "https://mh.alabama.gov/crisis-centers/",
+    "as_of": "2026-07-27 (page last modified); read 2026-10-03"
+   }
+  ],
+  "counties_without_center": [
+   "Butler",
+   "Coffee",
+   "Colbert",
+   "Covington",
+   "Crenshaw",
+   "Franklin",
+   "Lauderdale"
+  ],
+  "counties_without_center_fips": [
+   "01013",
+   "01031",
+   "01033",
+   "01039",
+   "01041",
+   "01059",
+   "01077"
+  ],
+  "second_source": {
+   "text_verbatim": [
+    "P: AltaPointe Health: The Behavioral Health Crisis Center is located in Mobile and serves Baldwin, Clark, Conecuh, Escambia, Mobile, Monroe, and Washington Counties. Behavioral Health Crisis Center | 251-662-8000 | 2401 Gordon Smith Drive, Mobile 36617",
+    "P: Carastar Health (formerly MAMHA): This center is in Montgomery, but serves the entire River Region, and the counties of Chambers, Lee, Russell, and Tallapoosa, in partnership with the community mental health centers of East Alabama and East Central Alabama. Mobile Crisis Services are in operation, in conjunction with law enforcement and first responder partnerships. Carastar Crisis Center | 800-408-4197 | 5915 Carmichael Road, Montgomery 36117",
+    "P: Indian Rivers Behavioral Health: The Hope Pointe Crisis Center is located in Tuscaloosa and serves: Bibb, Choctaw, Dallas, Greene, Hale, Marengo, Perry, Pickens, Sumter, Wilcox, and Tuscaloosa Counties. Hope Pointe Behavioral Health Crisis Center | 205-391-4000 | 1401 Greensboro Ave, Tuscaloosa 35401",
+    "P: Jefferson, Blount, St. Clair Behavioral Services: This center is located in Birmingham serving the named counties, in addition to Calhoun, Chilton, Clay, Cleburne, Coosa, Randolph, Shelby, and Talladega Counties. Craig Crisis Care Center | 205-263-1701 | 401 Beacon Parkway W, Birmingham 35209",
+    "P: SpectraCare Health Systems: The center is located in Dothan and serves Barbour, Dale, Geneva, Henry, and Houston counties. SpectraCare Crisis Center | 800-951-4357 | 2740 Headland Avenue, Dothan 36303",
+    "P: WellStone: This center is located in Huntsville serving Cullman and Madison counties, and the surrounding counties of Cherokee, Dekalb, Etowah, Fayette, Jackson, Lamar, Lawrence, Limestone, Marion, Marshall, Morgan, Walker, and Winston. Mobile Crisis Services are in operation, in conjunction with law enforcement and first responder partnerships. WellStone Emergency Services | 256-705-6444 | 4020 Memorial Parkway SW, Huntsville 35802"
+   ],
+   "source_url": "https://mh.alabama.gov/crisis-system-care/",
+   "as_of": "2026-09-15 (page last modified); read 2026-10-03"
+  }
+ },
+ "pediatric_crisis_unit": {
+  "name": "WellStone Pediatric Crisis Care",
+  "operator": "WellStone",
+  "city": "Huntsville",
+  "county": "Madison",
+  "address": "4020 Memorial Parkway SW, Huntsville, AL 35802",
+  "note": "ADMH lists it together with the adult center as \"WellStone Emergency Services & WellStone Pediatric Crisis Care\" with one address, phone and county list; no separate pediatric catchment is given.",
+  "catchment_counties": [
+   "Cherokee",
+   "Cullman",
+   "DeKalb",
+   "Etowah",
+   "Fayette",
+   "Jackson",
+   "Lamar",
+   "Lawrence",
+   "Limestone",
+   "Madison",
+   "Marion",
+   "Marshall",
+   "Morgan",
+   "Walker",
+   "Winston"
+  ],
+  "catchment_fips": [
+   "01019",
+   "01043",
+   "01049",
+   "01055",
+   "01057",
+   "01071",
+   "01075",
+   "01079",
+   "01083",
+   "01089",
+   "01093",
+   "01095",
+   "01103",
+   "01127",
+   "01133"
+  ],
+  "source_url": "https://mh.alabama.gov/crisis-centers/",
+  "as_of": "2026-07-27 (page last modified); read 2026-10-03"
+ },
+ "call_centers_988": {
+  "text_verbatim": "Call centers are located at AltaPointe Health in Mobile, in Birmingham at JBS in collaboration with The Crisis Center Birmingham, in Dothan with SpectraCare Health Systems, and in Huntsville at WellStone.",
+  "centers": [
+   {
+    "operator": "AltaPointe Health",
+    "city": "Mobile"
+   },
+   {
+    "operator": "JBS in collaboration with The Crisis Center Birmingham",
+    "city": "Birmingham"
+   },
+   {
+    "operator": "SpectraCare Health Systems",
+    "city": "Dothan"
+   },
+   {
+    "operator": "WellStone",
+    "city": "Huntsville"
+   }
+  ],
+  "source_url": "https://mh.alabama.gov/988-2/",
+  "as_of": "2026-03-13 (page last modified); read 2026-10-03"
+ },
+ "state_hospitals": [
+  {
+   "name": "Bryce Hospital",
+   "address": "1651 Ruby Tyler Parkway, Tuscaloosa 35404",
+   "city": "Tuscaloosa",
+   "county": "Tuscaloosa",
+   "population": "inpatient psychiatric services for adults throughout the state",
+   "source_url": "https://mh.alabama.gov/bryce-hospital/",
+   "as_of": "2026-06-09 (page last modified); read 2026-10-03"
+  },
+  {
+   "name": "Mary Starke Harper Geriatric Psychiatry Center",
+   "address": "115 Harper Court Tuscaloosa 35401",
+   "city": "Tuscaloosa",
+   "county": "Tuscaloosa",
+   "population": "inpatient psychiatric services for citizens aged 65 and older throughout the state",
+   "source_url": "https://mh.alabama.gov/mary-starke-harper-geriatric-psychiatry-center/",
+   "as_of": "2025-04-18 (page last modified); read 2026-10-03"
+  },
+  {
+   "name": "Taylor Hardin Secure Medical Facility",
+   "address": "1301 Jack Warner Parkway Northeast Tuscaloosa 35404",
+   "city": "Tuscaloosa",
+   "county": "Tuscaloosa",
+   "population": "psychiatric evaluation/treatment for the criminally committed; the only maximum security forensic facility operated by ADMH",
+   "source_url": "https://mh.alabama.gov/taylor-hardin-secure-medical-facility/",
+   "as_of": "2026-06-10 (page last modified); read 2026-10-03"
+  },
+  {
+   "name": "East Alabama Medical Center (contracted child and adolescent inpatient services)",
+   "address": null,
+   "city": null,
+   "county": null,
+   "population": "ADMH provides inpatient psychiatric services for children and adolescents statewide through a contract with East Alabama Medical Center",
+   "note": "Not a state-operated facility. The ADMH Facility Operations page names East Alabama Medical Center but gives no address, city or county, so none is recorded here.",
+   "source_url": "https://mh.alabama.gov/division-of-mental-health-substance-abuse-services/facility-operations/",
+   "as_of": "2024-08-29 (page last modified); read 2026-10-03"
+  }
+ ],
+ "mobile_crisis": {
+  "note": "Two ADMH descriptions that do not match: the Rural Crisis Care page lists programs by provider and county (union = counties_from_page_text); the alt text of ADMH's mobile crisis map lists 10 counties (counties_from_map_alt_text). The Crisis System of Care page also says \"There are now 14 teams at 11 community mental health centers.\"",
+  "programs": [
+   {
+    "group": "FY2021 rural crisis programs and mobile crisis teams (five CMHCs, state funding)",
+    "provider": "Cahaba Center for Mental Health",
+    "counties": [
+     "Dallas",
+     "Perry",
+     "Wilcox"
+    ],
+    "county_fips": [
+     "01047",
+     "01105",
+     "01131"
+    ],
+    "text": "Cahaba Center for Mental Health – Dallas, Perry and Wilcox Counties"
+   },
+   {
+    "group": "FY2021 rural crisis programs and mobile crisis teams (five CMHCs, state funding)",
+    "provider": "CarePath Behavioral Health",
+    "counties": [
+     "Escambia"
+    ],
+    "county_fips": [
+     "01053"
+    ],
+    "text": "CarePath Behavioral Health – Escambia County"
+   },
+   {
+    "group": "FY2021 rural crisis programs and mobile crisis teams (five CMHCs, state funding)",
+    "provider": "Northwest Alabama Mental Health Center",
+    "counties": [
+     "Marion",
+     "Winston"
+    ],
+    "county_fips": [
+     "01093",
+     "01133"
+    ],
+    "text": "Northwest Alabama Mental Health Center – Marion and Winston Counties"
+   },
+   {
+    "group": "FY2021 rural crisis programs and mobile crisis teams (five CMHCs, state funding)",
+    "provider": "WellStone",
+    "counties": [
+     "Cullman"
+    ],
+    "county_fips": [
+     "01043"
+    ],
+    "text": "WellStone – Cullman County"
+   },
+   {
+    "group": "FY2021 rural crisis programs and mobile crisis teams (five CMHCs, state funding)",
+    "provider": "West Alabama Mental Health Center",
+    "counties": [
+     "Marengo"
+    ],
+    "county_fips": [
+     "01091"
+    ],
+    "text": "West Alabama Mental Health Center – Marengo County"
+   },
+   {
+    "group": "FY21 federal ARPA and Block Grant awards (two CMHCs)",
+    "provider": "South Central Mental Health Center",
+    "counties": [
+     "Covington"
+    ],
+    "county_fips": [
+     "01039"
+    ],
+    "text": "South Central Mental Health Center – Covington County"
+   },
+   {
+    "group": "FY21 federal ARPA and Block Grant awards (two CMHCs)",
+    "provider": "SpectraCare Health",
+    "counties": [
+     "Houston"
+    ],
+    "county_fips": [
+     "01069"
+    ],
+    "text": "SpectraCare Health – Houston County"
+   },
+   {
+    "group": "Crisis Centers with state funding for six teams",
+    "provider": "AltaPointe Health",
+    "counties": [
+     "Mobile"
+    ],
+    "county_fips": [
+     "01097"
+    ],
+    "text": "AltaPointe Health – Mobile County"
+   },
+   {
+    "group": "Crisis Centers with state funding for six teams",
+    "provider": "Carastar Health (in partnership with East Central and East Alabama CMHCs)",
+    "counties": [
+     "Autauga",
+     "Elmore",
+     "Lowndes",
+     "Montgomery",
+     "Bullock",
+     "Macon",
+     "Pike",
+     "Chambers",
+     "Lee",
+     "Russell",
+     "Tallapoosa"
+    ],
+    "county_fips": [
+     "01001",
+     "01051",
+     "01085",
+     "01101",
+     "01011",
+     "01087",
+     "01109",
+     "01017",
+     "01081",
+     "01113",
+     "01123"
+    ],
+    "text": "Carastar Health (in partnership with East Central and East Alabama CMHCs) – Autauga, Elmore, Lowndes, Montgomery; Bullock, Macon, Pike; Chambers, Lee, Russell, Tallapoosa Counties"
+   },
+   {
+    "group": "Crisis Centers with state funding for six teams",
+    "provider": "WellStone",
+    "counties": [
+     "Cullman"
+    ],
+    "county_fips": [
+     "01043"
+    ],
+    "text": "WellStone - Cullman County"
+   },
+   {
+    "group": "Child and Adolescent Teams (five teams at three CMHCs, with the Alabama Department of Human Resources)",
+    "provider": "AltaPointe Health",
+    "counties": [
+     "Baldwin",
+     "Mobile"
+    ],
+    "county_fips": [
+     "01003",
+     "01097"
+    ],
+    "text": "AltaPointe Health – Baldwin and Mobile Counties"
+   },
+   {
+    "group": "Child and Adolescent Teams (five teams at three CMHCs, with the Alabama Department of Human Resources)",
+    "provider": "Jefferson, Blount, St. Clair Mental Authority (JBS)",
+    "counties": [
+     "Jefferson"
+    ],
+    "county_fips": [
+     "01073"
+    ],
+    "text": "Jefferson, Blount, St. Clair Mental Authority (JBS) - Jefferson County"
+   },
+   {
+    "group": "Child and Adolescent Teams (five teams at three CMHCs, with the Alabama Department of Human Resources)",
+    "provider": "WellStone",
+    "counties": [
+     "Cullman",
+     "Madison"
+    ],
+    "county_fips": [
+     "01043",
+     "01089"
+    ],
+    "text": "WellStone - Cullman and Madison Counties"
+   }
+  ],
+  "counties_from_page_text": [
+   "Autauga",
+   "Baldwin",
+   "Bullock",
+   "Chambers",
+   "Covington",
+   "Cullman",
+   "Dallas",
+   "Elmore",
+   "Escambia",
+   "Houston",
+   "Jefferson",
+   "Lee",
+   "Lowndes",
+   "Macon",
+   "Madison",
+   "Marengo",
+   "Marion",
+   "Mobile",
+   "Montgomery",
+   "Perry",
+   "Pike",
+   "Russell",
+   "Tallapoosa",
+   "Wilcox",
+   "Winston"
+  ],
+  "counties_from_page_text_fips": [
+   "01001",
+   "01003",
+   "01011",
+   "01017",
+   "01039",
+   "01043",
+   "01047",
+   "01051",
+   "01053",
+   "01069",
+   "01073",
+   "01081",
+   "01085",
+   "01087",
+   "01089",
+   "01091",
+   "01093",
+   "01097",
+   "01101",
+   "01105",
+   "01109",
+   "01113",
+   "01123",
+   "01131",
+   "01133"
+  ],
+  "counties_from_map_alt_text": [
+   "Covington",
+   "Cullman",
+   "Dallas",
+   "Escambia",
+   "Houston",
+   "Marengo",
+   "Marion",
+   "Perry",
+   "Wilcox",
+   "Winston"
+  ],
+  "counties_from_map_alt_text_fips": [
+   "01039",
+   "01043",
+   "01047",
+   "01053",
+   "01069",
+   "01091",
+   "01093",
+   "01105",
+   "01131",
+   "01133"
+  ],
+  "map_url": "https://mh.alabama.gov/wp-content/uploads/2026/09/Mobile-Crisis-Teams-2026-orange.png",
+  "alt_text_source_url": "https://mh.alabama.gov/crisis-system-care/",
+  "source_url": "https://mh.alabama.gov/rural-crisis-care-programs/",
+  "as_of": "2026-09-28 (page last modified); read 2026-10-03"
+ },
+ "first_episode_psychosis_nova_sites": {
+  "text_verbatim": "The department currently operates three sites that provide FEP program services in the state. NOVA-Birmingham operated by JBS Mental Health Authority, Jefferson County; NOVA-Mobile in AltaPointe, Mobile County, and NOVA-Huntsville in Wellstone, Madison County.",
+  "sites": [
+   {
+    "name": "NOVA-Birmingham",
+    "operator": "JBS Mental Health Authority",
+    "county": "Jefferson",
+    "county_fips": "01073"
+   },
+   {
+    "name": "NOVA-Mobile",
+    "operator": "AltaPointe",
+    "county": "Mobile",
+    "county_fips": "01097"
+   },
+   {
+    "name": "NOVA-Huntsville",
+    "operator": "Wellstone",
+    "county": "Madison",
+    "county_fips": "01089"
+   }
+  ],
+  "source_url": "https://mh.alabama.gov/first-episode-of-psychosis-program/",
+  "as_of": "2023-08-24 (page last modified); read 2026-10-03"
+ },
+ "mental_illness_service_regions": {
+  "note": "Four numbered regions on ADMH's \"Mental Illness Services\" map. County membership was read visually from the map image (county names are printed on it); treat as lower confidence than the text-based overlays. The map labels AltaPointe in both Region 2 (Talladega/Clay/Randolph/Coosa area) and Region 4 (Mobile/Baldwin/Washington area).",
+  "retrieval": "browser-screenshot (visual read)",
+  "source_url": "https://mh.alabama.gov/wp-content/uploads/2026/09/CMHC-2026-MI-scaled.png",
+  "linked_from": "https://mh.alabama.gov/admh-maps/",
+  "as_of": "image file dated 2026/09; read 2026-10-03",
+  "regions": [
+   {
+    "region": "1",
+    "counties": [
+     "Calhoun",
+     "Cherokee",
+     "Cleburne",
+     "Colbert",
+     "Cullman",
+     "DeKalb",
+     "Etowah",
+     "Fayette",
+     "Franklin",
+     "Jackson",
+     "Lamar",
+     "Lauderdale",
+     "Lawrence",
+     "Limestone",
+     "Madison",
+     "Marion",
+     "Marshall",
+     "Morgan",
+     "Walker",
+     "Winston"
+    ],
+    "county_fips": [
+     "01015",
+     "01019",
+     "01029",
+     "01033",
+     "01043",
+     "01049",
+     "01055",
+     "01057",
+     "01059",
+     "01071",
+     "01075",
+     "01077",
+     "01079",
+     "01083",
+     "01089",
+     "01093",
+     "01095",
+     "01103",
+     "01127",
+     "01133"
+    ],
+    "centers": [
+     "CED",
+     "HIGHLAND",
+     "MOUNTAIN LAKES",
+     "NORTH CENTRAL",
+     "NORTHWEST",
+     "RIVERBEND",
+     "WELLSTONE"
+    ]
+   },
+   {
+    "region": "2",
+    "counties": [
+     "Bibb",
+     "Blount",
+     "Chilton",
+     "Choctaw",
+     "Clay",
+     "Coosa",
+     "Dallas",
+     "Greene",
+     "Hale",
+     "Jefferson",
+     "Marengo",
+     "Perry",
+     "Pickens",
+     "Randolph",
+     "Shelby",
+     "St. Clair",
+     "Sumter",
+     "Talladega",
+     "Tuscaloosa",
+     "Wilcox"
+    ],
+    "county_fips": [
+     "01007",
+     "01009",
+     "01021",
+     "01023",
+     "01027",
+     "01037",
+     "01047",
+     "01063",
+     "01065",
+     "01073",
+     "01091",
+     "01105",
+     "01107",
+     "01111",
+     "01117",
+     "01115",
+     "01119",
+     "01121",
+     "01125",
+     "01131"
+    ],
+    "centers": [
+     "ALTAPOINTE",
+     "CAHABA",
+     "CAW",
+     "INDIAN RIVERS",
+     "JBS",
+     "WEST"
+    ]
+   },
+   {
+    "region": "3",
+    "counties": [
+     "Autauga",
+     "Bullock",
+     "Chambers",
+     "Elmore",
+     "Lee",
+     "Lowndes",
+     "Macon",
+     "Montgomery",
+     "Pike",
+     "Russell",
+     "Tallapoosa"
+    ],
+    "county_fips": [
+     "01001",
+     "01011",
+     "01017",
+     "01051",
+     "01081",
+     "01085",
+     "01087",
+     "01101",
+     "01109",
+     "01113",
+     "01123"
+    ],
+    "centers": [
+     "CARASTAR",
+     "EAST CENTRAL",
+     "INTEGREA"
+    ]
+   },
+   {
+    "region": "4",
+    "counties": [
+     "Baldwin",
+     "Barbour",
+     "Butler",
+     "Clarke",
+     "Coffee",
+     "Conecuh",
+     "Covington",
+     "Crenshaw",
+     "Dale",
+     "Escambia",
+     "Geneva",
+     "Henry",
+     "Houston",
+     "Mobile",
+     "Monroe",
+     "Washington"
+    ],
+    "county_fips": [
+     "01003",
+     "01005",
+     "01013",
+     "01025",
+     "01031",
+     "01035",
+     "01039",
+     "01041",
+     "01045",
+     "01053",
+     "01061",
+     "01067",
+     "01069",
+     "01097",
+     "01099",
+     "01129"
+    ],
+    "centers": [
+     "ALTAPOINTE",
+     "CAREPATH",
+     "SOUTH CENTRAL",
+     "SPECTRACARE"
+    ]
+   }
+  ]
+ }
+}
