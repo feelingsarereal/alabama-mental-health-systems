@@ -529,7 +529,8 @@ const refsOut: RefT[] = references.map((r) => {
   for (const s of r.cited_in) if (!sectionIds.has(s)) E(`references.yaml [${r.n}]: cited_in ${s} is not a section`);
   const inBody = bodyCites.has(r.n);
   const inLedger = ledgerCites.has(r.n);
-  const aux = !inBody && !inLedger && !otherCites.has(r.n) && auxCites.has(r.n);
+  // cited only by the maps, glossary or primers — or by nothing at all (a warning), which KICKOFF's 297–329 group also holds
+  const aux = !inBody && !inLedger && !otherCites.has(r.n);
   if (!inBody && !inLedger && !auxCites.has(r.n) && !otherCites.has(r.n)) warnings.push(`references.yaml [${r.n}]: cited nowhere`);
   return {
     n: r.n, tier: r.tier, citation: r.citation, title: r.title, publisher: r.publisher, published: r.published, url: r.url, year: r.year,
